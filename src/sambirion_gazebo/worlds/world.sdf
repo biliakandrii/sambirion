@@ -1,0 +1,166 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="world">
+
+    <!-- Gravity and physics -->
+    <gravity>0 0 -9.81</gravity>
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <!-- Floor -->
+    <model name="floor">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>10 10</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>10 10</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Walls -->
+    <!-- Wall thickness 0.1 m, height 2.5 m -->
+    <model name="wall_north">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>10 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 5 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>10 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 5 1.25 0 0 0</pose>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="wall_south">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>10 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 -5 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>10 0.1 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 -5 1.25 0 0 0</pose>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="wall_east">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 10 2.5</size>
+            </box>
+          </geometry>
+          <pose>5 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 10 2.5</size>
+            </box>
+          </geometry>
+          <pose>5 0 1.25 0 0 0</pose>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="wall_west">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 10 2.5</size>
+            </box>
+          </geometry>
+          <pose>-5 0 1.25 0 0 0</pose>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 10 2.5</size>
+            </box>
+          </geometry>
+          <pose>-5 0 1.25 0 0 0</pose>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Light -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Ground plane for reference -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+  </world>
+</sdf>

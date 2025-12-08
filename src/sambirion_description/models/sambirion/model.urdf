@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<robot name="sambirion">
+
+  <link name="base_link"/>
+
+  <link name="chassis">
+    <inertial>
+      <mass value="1.14395"/>
+      <inertia ixx="0.126164" ixy="0" ixz="0" iyy="0.416519" iyz="0" izz="0.481014"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.65 0.245 0.05"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0.5 0.5 1.0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.65 0.245 0.05"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="base_link_to_chassis" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis"/>
+    <origin xyz="0 0 0.0875" rpy="0 0 0"/>
+  </joint>
+
+  <link name="front_left_wheel">
+    <inertial>
+      <mass value="2"/>
+      <inertia ixx="0.145833" ixy="0" ixz="0" iyy="0.145833" iyz="0" izz="0.125"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://sambirion_description/models/sambirion/meshes/mecanum_wheel_left.STL" scale="0.002 0.002 0.002"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.2 0.2 0.2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="rear_left_wheel">
+    <inertial>
+      <mass value="2"/>
+      <inertia ixx="0.145833" ixy="0" ixz="0" iyy="0.145833" iyz="0" izz="0.125"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://sambirion_description/models/sambirion/meshes/mecanum_wheel_right.STL" scale="0.002 0.002 0.002"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.2 0.2 0.2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="front_right_wheel">
+    <inertial>
+      <mass value="2"/>
+      <inertia ixx="0.145833" ixy="0" ixz="0" iyy="0.145833" iyz="0" izz="0.125"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://sambirion_description/models/sambirion/meshes/mecanum_wheel_right.STL" scale="0.002 0.002 0.002"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.2 0.2 0.2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <link name="rear_right_wheel">
+    <inertial>
+      <mass value="2"/>
+      <inertia ixx="0.145833" ixy="0" ixz="0" iyy="0.145833" iyz="0" izz="0.125"/>
+    </inertial>
+    <visual>
+      <origin rpy="1.5707 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://sambirion_description/models/sambirion/meshes/mecanum_wheel_left.STL" scale="0.002 0.002 0.002"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.2 0.2 0.2 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="front_left_wheel_joint" type="revolute">
+    <parent link="chassis"/>
+    <child link="front_left_wheel"/>
+    <origin xyz="0.2 0.1625 0" rpy="-1.5707 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10.0" lower="-1.79769e+308" upper="1.79769e+308" velocity="10.0"/>
+  </joint>
+
+  <joint name="front_right_wheel_joint" type="revolute">
+    <parent link="chassis"/>
+    <child link="front_right_wheel"/>
+    <origin xyz="0.2 -0.1625 0" rpy="-1.5707 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10.0" lower="-1.79769e+308" upper="1.79769e+308" velocity="10.0"/>
+  </joint>
+
+  <joint name="rear_left_wheel_joint" type="revolute">
+    <parent link="chassis"/>
+    <child link="rear_left_wheel"/>
+    <origin xyz="-0.2 0.1625 0" rpy="-1.5707 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10.0" lower="-1.79769e+308" upper="1.79769e+308" velocity="10.0"/>
+  </joint>
+
+  <joint name="rear_right_wheel_joint" type="revolute">
+    <parent link="chassis"/>
+    <child link="rear_right_wheel"/>
+    <origin xyz="-0.2 -0.1625 0" rpy="-1.5707 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10.0" lower="-1.79769e+308" upper="1.79769e+308" velocity="10.0"/>
+  </joint>
+
+  <link name="front_lidar_link">
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.000166667" ixy="0" ixz="0" iyy="0.000166667" iyz="0" izz="0.000166667"/>
+    </inertial>
+    <collision>
+      <geometry>
+        <cylinder radius="0.04" length="0.04"/>
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <cylinder radius="0.04" length="0.04"/>
+      </geometry>
+      <material name="green">
+        <color rgba="0.0 1.0 0.0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <link name="rear_lidar_link">
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.000166667" ixy="0" ixz="0" iyy="0.000166667" iyz="0" izz="0.000166667"/>
+    </inertial>
+    <collision>
+      <geometry>
+        <cylinder radius="0.04" length="0.04"/>
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <cylinder radius="0.04" length="0.04"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1.0 0.0 0.0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="front_lidar_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="front_lidar_link"/>
+    <origin xyz="0.325 0 0.045" rpy="0 0 0"/>
+  </joint>
+
+  <joint name="rear_lidar_joint" type="fixed">
+    <parent link="chassis"/>
+    <child link="rear_lidar_link"/>
+    <origin xyz="-0.325 0 0.045" rpy="0 0 3.14159"/>
+  </joint>
+
+</robot>
