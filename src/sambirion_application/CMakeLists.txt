@@ -42,6 +42,11 @@ install(
     src/goal_publisher.py
   DESTINATION lib/${PROJECT_NAME}
 )
+install(
+  PROGRAMS
+    src/moving_obstacle_node.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

@@ -147,6 +147,11 @@ def generate_launch_description():
         executable='goal_publisher.py',
         name='goal_publisher'
     )
+
+    # goal_pub_t = TimerAction(
+    #     period=15.0,  # 2 seconds delay
+    #     actions=[goal_pub]
+    # )
     return LaunchDescription([
         set_sim_time,
         declare_use_sim_time,
@@ -156,10 +161,10 @@ def generate_launch_description():
         initial_pose_timer,
         robot_state_publisher,
         spawn_entity,
-        map_server,
-        amcl,
-        lifecycle_manager,
+        # map_server,
+        # amcl,
+        # lifecycle_manager,
         rviz,
         jsp,
-        goal_pub,
+        # goal_pub_t,
     ])
