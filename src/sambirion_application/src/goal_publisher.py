@@ -17,7 +17,7 @@ class GoalPublisher(Node):
         self.declare_parameter('goal_tolerance', 0.2)
         self.declare_parameter('odom_topic', '/odom')
         self.declare_parameter('goal_topic', '/goal_pose')
-        self.declare_parameter('update_rate', 15)
+        self.declare_parameter('update_rate', 0.1)
 
         # Get parameters
         goals_str = self.get_parameter('goals').value
@@ -56,8 +56,8 @@ class GoalPublisher(Node):
             10
         )
 
-        # Timer to publish goals and check if reached
-        self.timer = self.create_timer(update_rate, self.update_goal)
+        # Timer to publish goals continuously
+        self.timer = self.create_timer(1.0 / update_rate, self.publish_current_goal)
 
         self.index = 0
         self.current_pose = None
@@ -79,11 +79,12 @@ class GoalPublisher(Node):
         self.get_logger().info('Waiting for odometry data...')
 
     def odom_callback(self, msg):
-        """Update current robot position from odometry"""
+        """Update current robot position from odometry and check if goal reached"""
         self.current_pose = msg.pose.pose
+        self.check_goal_reached()
 
-    def update_goal(self):
-        """Publish current goal and check if robot reached it"""
+    def check_goal_reached(self):
+        """Check if robot reached current goal and switch to next immediately"""
         
         # Wait for odometry data
         if self.current_pose is None:
@@ -106,7 +107,35 @@ class GoalPublisher(Node):
         # Get current goal
         x, y, yaw = self.goals[self.index]
 
-        # Publish the current goal continuously
+        # Check if current goal is reached
+        current_x = self.current_pose.position.x
+        current_y = self.current_pose.position.y
+
+        distance = sqrt((x - current_x)**2 + (y - current_y)**2)
+
+        if distance < self.goal_tolerance:
+            self.get_logger().info(f"Goal {self.index+1} reached! Distance: {distance:.3f}m")
+            self.index += 1
+            
+            # Immediately publish next goal if available
+            if self.index < len(self.goals):
+                self.publish_current_goal()
+
+    def publish_current_goal(self):
+        """Publish the current goal"""
+        
+        # Wait for odometry data
+        if self.current_pose is None:
+            return
+
+        # Check if all goals are completed
+        if self.index >= len(self.goals):
+            return
+
+        # Get current goal
+        x, y, yaw = self.goals[self.index]
+
+        # Publish the current goal
         msg = PoseStamped()
         msg.header.frame_id = 'map'
         msg.header.stamp = self.get_clock().now().to_msg()
@@ -125,16 +154,6 @@ class GoalPublisher(Node):
         if self.current_goal != self.index:
             self.get_logger().info(f"Publishing goal {self.index+1}/{len(self.goals)}: x={x}, y={y}, yaw={yaw}")
             self.current_goal = self.index
-
-        # Check if current goal is reached
-        current_x = self.current_pose.position.x
-        current_y = self.current_pose.position.y
-
-        distance = sqrt((x - current_x)**2 + (y - current_y)**2)
-
-        if distance < self.goal_tolerance:
-            self.get_logger().info(f"Goal {self.index+1} reached! Distance: {distance:.3f}m")
-            self.index += 1
 
 
 def main(args=None):

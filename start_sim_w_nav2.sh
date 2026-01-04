@@ -40,7 +40,7 @@ echo "Processes running. Type 'exit' to stop all processes and end script."
 
 while true; do
   read -r input
-  if [[ "$input" == "test" ]]; then
+  if [[ "$input" == "test0" ]]; then
     ros2 run sambirion_application moving_obstacle_node.py --ros-args \
       -p model_name:=obs1 \
       -p trajectory:=linear \
@@ -65,6 +65,30 @@ while true; do
 
     ros2 run sambirion_application goal_publisher.py --ros-args \
       -p goals:=0.06,-4.38,0.0,-3.93,-3.01,0.0,4.06,-2.98,0.0,-3.95,2.01,0.0,0.95,4.02,0.0,4.15,4.10,0.0,-3.94,-4.03,0.0 \
+      -p goal_tolerance:=0.3 &
+  fi
+  if [[ "$input" == "test1" ]]; then
+    ros2 run sambirion_application moving_obstacle_node.py --ros-args \
+      -p model_name:=obs1 \
+      -p trajectory:=linear \
+      -p linear_axis:=x \
+      -p start_x:=0.0 -p start_y:=-3.0 \
+      -p speed:=0.1 -p radius:=1.0 &
+
+    ros2 run sambirion_application goal_publisher.py --ros-args \
+      -p goals:=0.06,-4.38,0.0,0.0,0.0,0.0,0.06,-4.38,0.0,0.0,0.0,0.0 \
+      -p goal_tolerance:=0.3 &
+  fi
+  if [[ "$input" == "test2" ]]; then
+    ros2 run sambirion_application moving_obstacle_node.py --ros-args \
+      -p model_name:=obs1 \
+      -p trajectory:=linear \
+      -p linear_axis:=y \
+      -p start_x:=0.0 -p start_y:=-3.0 \
+      -p speed:=0.05 -p radius:=1.0 &
+
+    ros2 run sambirion_application goal_publisher.py --ros-args \
+      -p goals:=0.06,-4.38,0.0 \
       -p goal_tolerance:=0.3 &
   fi
   if [[ "$input" == "exit" ]]; then 
