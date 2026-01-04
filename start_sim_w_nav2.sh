@@ -72,6 +72,7 @@ while true; do
       -p model_name:=obs1 \
       -p trajectory:=linear \
       -p linear_axis:=x \
+      -p obstacle_radius:=0.2 \
       -p start_x:=0.0 -p start_y:=-3.0 \
       -p speed:=0.1 -p radius:=1.0 &
 
