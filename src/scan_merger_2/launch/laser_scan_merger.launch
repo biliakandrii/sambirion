@@ -1,0 +1,28 @@
+<!-- Reusable launch file for obstacle detection -->
+<launch>
+
+  <node name="scans_merger" pkg="laser_scan_merger" exec="scans_merger_node">
+
+    <remap from="/front_scan" to="/front/scan" />
+    <remap from="/rear_scan" to="/rear/scan" />
+    
+    <param name="active"            value="true"/>
+    <param name="publish_scan"      value="true"/>
+    <param name="publish_pcl2"       value="true"/>
+
+    <param name="ranges_num"        value="1000"/>
+
+    <param name="min_scanner_range" value="0.05"/>
+    <param name="max_scanner_range" value="10.0"/>
+
+    <param name="min_x_range"       value="-10.0"/>
+    <param name="max_x_range"       value="10.0"/>
+    <param name="min_y_range"       value="-10.0"/>
+    <param name="max_y_range"       value="10.0"/>
+
+    <param name="fixed_frame_id"   value="odom"/>
+    <param name="target_frame_id"   value="odom"/>
+  </node>
+
+</launch>
+<!-- -->
