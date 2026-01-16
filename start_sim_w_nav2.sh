@@ -25,6 +25,15 @@ echo "Launching Nav2..."
 ros2 launch sambirion_navigation nav2_bringup.launch.py &
 PIDS+=($!)
 
+ros2 launch state_estimator kf_state_estimator_launch.py &
+PIDS+=($!)
+
+ros2 run state_estimator costmap_merger &
+PIDS+=($!)
+
+ros2 launch obstacle_detector nodes.launch.xml &
+PIDS+=($!)
+
 echo "Waiting for /initialpose topic..."
 
 until ros2 topic list 2>/dev/null | grep -q "^/initialpose$"; do
