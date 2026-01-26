@@ -9,10 +9,11 @@ from launch_ros.actions import SetParameter
 import os
 
 def generate_launch_description():
+    """Headless launch file - no GUI (gzclient/rviz)"""
+    
     use_sim_time = LaunchConfiguration('use_sim_time')
     world_name = LaunchConfiguration('world')
 
-    pkg_project_bringup = get_package_share_directory('sambirion_bringup')
     pkg_project_gazebo = get_package_share_directory('sambirion_gazebo')
     pkg_project_description = get_package_share_directory('sambirion_description')
 
@@ -24,20 +25,18 @@ def generate_launch_description():
     declare_use_sim_time = DeclareLaunchArgument(
         'use_sim_time', default_value='True',
         description='Use simulation (Gazebo) clock')
+    
     declare_world = DeclareLaunchArgument(
         'world', default_value='world.sdf',
         description='World file to load')
 
-    # --- Gazebo ---
+    # --- Gazebo Server ONLY (no gzclient) ---
     gzserver_cmd = ExecuteProcess(
         cmd=['gzserver', '--verbose',
              '-s', 'libgazebo_ros_init.so',
              '-s', 'libgazebo_ros_factory.so',
              world_path],
         output='screen'
-    )
-    gzclient_cmd = ExecuteProcess(
-        cmd=['gzclient'], output='screen'
     )
 
     # --- Robot State Publisher ---
@@ -66,65 +65,17 @@ def generate_launch_description():
         output='screen'
     )
 
-    # --- Map Server (Lifecycle Node) ---
-    map_server = Node(
-        package='nav2_map_server',
-        executable='map_server',
-        name='map_server',
-        output='screen',
-        parameters=[{
-            'yaml_filename': '/root/sambirion/src/sambirion_navigation/maps/map.yaml',
-            'use_sim_time': True
-        }]
-    )
-
-    # --- AMCL (Lifecycle Node) ---
-    amcl = Node(
-        package='nav2_amcl',
-        executable='amcl',
-        name='amcl',
-        output='screen',
-        parameters=[{
-            'use_map_topic': True,
-            'odom_frame_id': 'odom',
-            'base_frame_id': 'base_link',
-            'global_frame_id': 'map',
-            'scan_topic': 'front_scan',
-            'use_sim_time': True
-        }]
-    )
-
-    # --- Lifecycle Manager ---
-    lifecycle_manager = Node(
-        package='nav2_lifecycle_manager',
-        executable='lifecycle_manager',
-        name='lifecycle_manager',
-        output='screen',
-        parameters=[{
-            'use_sim_time': True,
-            'autostart': True,
-            'node_names': ['map_server', 'amcl']
-        }]
-    )
-
-    # --- RViz and Joint State Publisher ---
-    rviz = Node(
-        package='rviz2',
-        executable='rviz2',
-        name='rviz2',
-        output='screen'
-    )
-
+    # --- Joint State Publisher ---
     jsp = Node(
         package='sambirion_application',
         executable='joint_state_publisher_node',
         name='joint_state_publisher_node'
     )
 
-     # --- Timer Node to Publish Initial Pose ---
+    # --- Initial Pose Publisher (with delay) ---
     initial_pose_publisher = Node(
-        package='sambirion_application',  # or any custom package you have
-        executable='initial_pose_pub',    # new Python script we will create
+        package='sambirion_application',
+        executable='initial_pose_pub',
         name='initial_pose_publisher',
         output='screen',
         parameters=[{
@@ -135,18 +86,11 @@ def generate_launch_description():
         }]
     )
 
-    # Wrap it in a short TimerAction to give map_server and AMCL time to activate
     initial_pose_timer = TimerAction(
-        period=5.0,  # 2 seconds delay
+        period=5.0,
         actions=[initial_pose_publisher]
     )
-    set_sim_time = SetParameter(name='use_sim_time', value=True)
 
-    goal_pub = Node(
-        package='sambirion_application',
-        executable='goal_publisher.py',
-        name='goal_publisher'
-    )
     # trajectory_plotter = Node(
     #     package='sambirion_application',
     #     executable='trajectory_plotter.py',
@@ -160,24 +104,17 @@ def generate_launch_description():
     #         'output_dir': '/root/sambirion/plots/trajectory/'
     #     }]
     # )
-    # goal_pub_t = TimerAction(
-    #     period=15.0,  # 2 seconds delay
-    #     actions=[goal_pub]
-    # )
+    
+    set_sim_time = SetParameter(name='use_sim_time', value=True)
+
     return LaunchDescription([
         set_sim_time,
         declare_use_sim_time,
         declare_world,
-        gzserver_cmd,
-        gzclient_cmd,
-        initial_pose_timer,
+        gzserver_cmd,  
         robot_state_publisher,
         spawn_entity,
-        # map_server,
-        # amcl,
-        # lifecycle_manager,
-        rviz,
         jsp,
+        initial_pose_timer,
         # trajectory_plotter,
-        # goal_pub_t,
     ])

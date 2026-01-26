@@ -71,7 +71,7 @@ class GoalPublisher(Node):
         self.get_logger().info(f"  Odometry Topic: {odom_topic}")
         self.get_logger().info(f"  Goal Topic: {goal_topic}")
         self.get_logger().info(f"  Update Rate: {update_rate} Hz")
-        self.get_logger().info(f"  Goal Tolerance: {self.goal_tolerance} m")
+        self.get_logger().info(f"  Goal Tolerance: {self.goal_tolerance} m (position only)")
         self.get_logger().info(f"  Number of Goals: {len(self.goals)}")
         for i, (x, y, yaw) in enumerate(self.goals):
             self.get_logger().info(f"    Goal {i+1}: x={x:.2f}, y={y:.2f}, yaw={yaw:.2f}")
@@ -84,7 +84,7 @@ class GoalPublisher(Node):
         self.check_goal_reached()
 
     def check_goal_reached(self):
-        """Check if robot reached current goal and switch to next immediately"""
+        """Check if robot reached current goal (position only, yaw ignored)"""
         
         # Wait for odometry data
         if self.current_pose is None:
@@ -107,7 +107,7 @@ class GoalPublisher(Node):
         # Get current goal
         x, y, yaw = self.goals[self.index]
 
-        # Check if current goal is reached
+        # Check if current goal is reached (only x,y position matters)
         current_x = self.current_pose.position.x
         current_y = self.current_pose.position.y
 
@@ -144,7 +144,7 @@ class GoalPublisher(Node):
         msg.pose.position.y = y
         msg.pose.position.z = 0.0
 
-        # yaw → quaternion
+        # yaw → quaternion (still published for navigation, but not checked for goal reach)
         msg.pose.orientation.z = sin(yaw / 2)
         msg.pose.orientation.w = cos(yaw / 2)
 

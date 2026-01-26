@@ -7,7 +7,7 @@ import numpy as np
 from abc import ABC, abstractmethod
 from typing import Dict, List, Tuple, Optional
 from dataclasses import dataclass
-from nav_msgs.msg import OccupancyGrid
+from nav_msgs.msg import OccupancyGrid, Odometry
 from map_msgs.msg import OccupancyGridUpdate
 from geometry_msgs.msg import Pose
 from std_msgs.msg import Header
@@ -30,6 +30,8 @@ class BaseStateEstimator(Node, ABC):
     """
     Base class for state estimators that predict obstacle future locations
     and generate heatmaps for costmap integration.
+    
+    Includes rotation detection to pause predictions during radical turns.
     """
     
     def __init__(self, node_name: str):
@@ -44,11 +46,24 @@ class BaseStateEstimator(Node, ABC):
         # Initialize tracking dictionary
         self.tracked_obstacles: Dict[int, TrackedObstacle] = {}
         
+        # Robot motion tracking
+        self.robot_angular_velocity = 0.0
+        self.robot_linear_velocity = 0.0
+        self.is_robot_turning = False
+        
         # Subscribe to obstacles
         self.obstacles_sub = self.create_subscription(
             self._get_obstacles_msg_type(),
             self.input_topic,
             self.obstacles_callback,
+            10
+        )
+        
+        # Subscribe to odometry for rotation detection
+        self.odom_sub = self.create_subscription(
+            Odometry,
+            self.odom_topic,
+            self.odom_callback,
             10
         )
 
@@ -98,6 +113,7 @@ class BaseStateEstimator(Node, ABC):
         self.get_logger().info(f'Grid resolution: {self.grid_resolution}m')
         self.get_logger().info(f'Prediction horizon: {self.prediction_horizon}s')
         self.get_logger().info(f'Update rate: {self.update_rate}Hz')
+        self.get_logger().info(f'Rotation threshold: {self.angular_velocity_threshold} rad/s')
         self.get_logger().info(f'Publishing updates to: {self.output_topic}_updates')
     
     def _declare_parameters(self):
@@ -105,6 +121,7 @@ class BaseStateEstimator(Node, ABC):
         # Input/Output topics
         self.declare_parameter('input_topic', '/obstacles')
         self.declare_parameter('output_topic', '/predicted_obstacles_heatmap')
+        self.declare_parameter('odom_topic', '/odom')
         
         # Update rate
         self.declare_parameter('update_rate', 10.0)
@@ -131,6 +148,11 @@ class BaseStateEstimator(Node, ABC):
         # Update publishing parameters
         self.declare_parameter('full_update_interval', 10)  # Publish full grid every N updates
         
+        # Rotation detection parameters
+        self.declare_parameter('angular_velocity_threshold', 0.3)  # rad/s 
+        self.declare_parameter('pause_predictions_on_rotation', True)  # Enable/disable feature
+        self.declare_parameter('min_linear_velocity', 0.0)  # m/s - only check rotation if moving
+        
         # Kalman Filter parameters (can be overridden by subclasses)
         self.declare_parameter('process_noise_pos', 0.1)
         self.declare_parameter('process_noise_vel', 0.5)
@@ -141,6 +163,7 @@ class BaseStateEstimator(Node, ABC):
         """Load parameters from ROS2 parameter server"""
         self.input_topic = self.get_parameter('input_topic').value
         self.output_topic = self.get_parameter('output_topic').value
+        self.odom_topic = self.get_parameter('odom_topic').value
         self.update_rate = self.get_parameter('update_rate').value
         
         self.grid_resolution = self.get_parameter('grid_resolution').value
@@ -159,6 +182,11 @@ class BaseStateEstimator(Node, ABC):
         self.max_obstacle_age = self.get_parameter('max_obstacle_age').value
         self.full_update_interval = self.get_parameter('full_update_interval').value
         
+        # Rotation detection parameters
+        self.angular_velocity_threshold = self.get_parameter('angular_velocity_threshold').value
+        self.pause_predictions_on_rotation = self.get_parameter('pause_predictions_on_rotation').value
+        self.min_linear_velocity = self.get_parameter('min_linear_velocity').value
+        
         # Calculate grid dimensions
         self.grid_width_cells = int(self.grid_width / self.grid_resolution)
         self.grid_height_cells = int(self.grid_height / self.grid_resolution)
@@ -175,6 +203,39 @@ class BaseStateEstimator(Node, ABC):
             self.get_logger().error("Could not import obstacle_detector messages")
             # Fallback for testing without the actual package
             return type('Obstacles', (), {})
+    
+    def odom_callback(self, msg: Odometry):
+        """Callback for odometry messages to detect robot rotation"""
+        # Extract angular velocity (rotation around z-axis)
+        self.robot_angular_velocity = abs(msg.twist.twist.angular.z)
+        
+        # Extract linear velocity (magnitude)
+        vx = msg.twist.twist.linear.x
+        vy = msg.twist.twist.linear.y
+        self.robot_linear_velocity = math.sqrt(vx**2 + vy**2)
+        
+        # Determine if robot is turning radically
+        # Only consider it a turn if the robot is also moving forward
+        was_turning = self.is_robot_turning
+        
+        if self.pause_predictions_on_rotation:
+            if self.robot_linear_velocity > self.min_linear_velocity:
+                self.is_robot_turning = self.robot_angular_velocity > self.angular_velocity_threshold
+            else:
+                # If robot is stationary, don't pause predictions
+                self.is_robot_turning = False
+        else:
+            self.is_robot_turning = False
+        
+        # Log state changes
+        if self.is_robot_turning != was_turning:
+            if self.is_robot_turning:
+                self.get_logger().info(
+                    f'Robot turning detected (ω={self.robot_angular_velocity:.3f} rad/s) - '
+                    f'pausing predictions'
+                )
+            else:
+                self.get_logger().info('Robot turn complete - resuming predictions')
     
     def obstacles_callback(self, msg):
         """Callback for obstacles messages"""
@@ -273,6 +334,16 @@ class BaseStateEstimator(Node, ABC):
     
     def update_callback(self):
         """Fixed rate update callback"""
+        # Check if robot is turning radically
+        if self.is_robot_turning:
+            # Publish empty heatmap during turns
+            self.get_logger().debug(
+                f'Skipping prediction - robot turning (ω={self.robot_angular_velocity:.3f} rad/s)'
+            )
+            # empty_heatmap = np.zeros((self.grid_height_cells, self.grid_width_cells), dtype=np.float32)
+            # self._publish_heatmap(empty_heatmap)
+            return
+        
         if not self.tracked_obstacles:
             # Publish empty heatmap
             empty_heatmap = np.zeros((self.grid_height_cells, self.grid_width_cells), dtype=np.float32)

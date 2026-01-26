@@ -317,22 +317,13 @@ local_costmap:
       footprint: "[[0.325, 0.1225], [0.325, -0.1225], [-0.325, -0.1225], [-0.325, 0.1225]]"
       always_send_full_costmap: true
       
-      plugins: ["prediction_layer", "obstacle_layer", "inflation_layer"]
+      plugins: ["obstacle_layer", "inflation_layer"]
 
-      prediction_layer:
-        plugin: "nav2_costmap_2d::StaticLayer"
-        map_topic: "/predicted_obstacles_heatmap"
-        subscribe_to_updates: true  
-        enabled: true
-        map_subscribe_transient_local: true
-        track_unknown_space: false
-        use_maximum: false  # Use trinary costmap combination
-        trinary_costmap: false  # Allow gradient costs
-        unknown_cost_value: -1
-      
       obstacle_layer:
         plugin: "nav2_costmap_2d::ObstacleLayer"
         enabled: true
+        observation_persistence: 1.0
+        expected_update_rate: 10.0
         observation_sources: front_scan
         combination_method: 1  # Max (obstacles override static)
         front_scan:
@@ -351,5 +342,5 @@ local_costmap:
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         enabled: true
-        inflation_radius: 0.25   # CHANGED: down from 0.5 - less conservative inflation
+        inflation_radius: 0.4   # CHANGED: down from 0.5 - less conservative inflation
         cost_scaling_factor: 3.0  # CHANGED: down from 5.0 - gentler cost gradient

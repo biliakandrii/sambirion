@@ -1,0 +1,102 @@
+[
+  {
+    "test_name": "test1",
+    "nav2_config": "default",
+    "time": 30.11
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "default",
+    "time": 30.17
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "default",
+    "time": 33.44
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "default",
+    "time": 33.5
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "default",
+    "time": 35.04
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "default",
+    "time": 33.54
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "default",
+    "time": 34.73
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "default",
+    "time": 34.82
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "default",
+    "time": 30.45
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "default",
+    "time": 30.5
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "prediction",
+    "time": 29.25
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "prediction",
+    "time": 30.16
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "prediction",
+    "time": 29.35
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "prediction",
+    "time": 29.24
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "prediction",
+    "time": 29.57
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "prediction",
+    "time": 27.82
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "prediction",
+    "time": 53.85
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "prediction",
+    "time": 30.3
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "prediction",
+    "time": 28.63
+  },
+  {
+    "test_name": "test1",
+    "nav2_config": "prediction",
+    "time": 30.03
+  }
+]

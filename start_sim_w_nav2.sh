@@ -1,6 +1,26 @@
 #!/usr/bin/env bash
 set -e
 
+# ----------------------------
+# Nav2 configuration selector
+# ----------------------------
+
+NAV2_CONFIG="${1:-default}"
+
+NAV2_PARAMS_DIR="/root/sambirion/src/sambirion_navigation/params"
+
+case "$NAV2_CONFIG" in
+  default)
+    NAV2_PARAMS="$NAV2_PARAMS_DIR/nav2_params_default.yaml"
+    echo "[Nav2] Mode: DEFAULT (no prediction)"
+    ;;
+  *)
+    NAV2_PARAMS="$NAV2_PARAMS_DIR/nav2_params.yaml"
+    echo "[Nav2] Mode: PREDICTION ENABLED"
+    ;;
+esac
+
+
 PIDS=()
 
 cleanup() {
@@ -22,14 +42,15 @@ ros2 launch sambirion_bringup sambirion_gazebo.launch.py &
 PIDS+=($!)
 
 echo "Launching Nav2..."
-ros2 launch sambirion_navigation nav2_bringup.launch.py &
+ros2 launch sambirion_navigation nav2_bringup.launch.py \
+  params:="$NAV2_PARAMS" &
 PIDS+=($!)
 
 ros2 launch state_estimator kf_state_estimator_launch.py &
 PIDS+=($!)
 
-ros2 run state_estimator costmap_merger &
-PIDS+=($!)
+# ros2 run state_estimator costmap_merger &
+# PIDS+=($!)
 
 ros2 launch obstacle_detector nodes.launch.xml &
 PIDS+=($!)
@@ -82,11 +103,11 @@ while true; do
       -p trajectory:=linear \
       -p linear_axis:=x \
       -p obstacle_radius:=0.2 \
-      -p start_x:=0.0 -p start_y:=-3.0 \
-      -p speed:=0.1 -p radius:=1.0 &
+      -p start_x:=0.0 -p start_y:=-2.5 \
+      -p speed:=0.1 -p radius:=0.7 &
 
     ros2 run sambirion_application goal_publisher.py --ros-args \
-      -p goals:=0.06,-4.38,0.0,0.0,0.0,0.0,0.06,-4.38,0.0,0.0,0.0,0.0 \
+      -p goals:=0.06,-3.38,0.0 \
       -p goal_tolerance:=0.3 &
   fi
   if [[ "$input" == "test2" ]]; then

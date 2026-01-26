@@ -3,7 +3,7 @@ import rclpy
 from rclpy.node import Node
 from gazebo_msgs.srv import SpawnEntity, DeleteEntity
 from std_msgs.msg import Float64
-from geometry_msgs.msg import Pose, Twist, TransformStamped
+from geometry_msgs.msg import Pose, Twist, TransformStamped, PoseStamped
 from visualization_msgs.msg import Marker
 from geometry_msgs.msg import Point
 import math
@@ -43,6 +43,10 @@ class MovingObstacleNode(Node):
         # Generate unique marker ID based on model name hash
         self.marker_id = hash(self.model_name) % 10000
         
+        # Movement control flags
+        self.movement_started = False
+        self.start_time = None
+        
         # Print configuration
         self.get_logger().info("=" * 50)
         self.get_logger().info("Moving Obstacle Configuration:")
@@ -54,6 +58,7 @@ class MovingObstacleNode(Node):
         self.get_logger().info(f"  Size: radius={self.obstacle_radius}m, height={self.obstacle_height}m")
         self.get_logger().info(f"  Color: RGB({self.color_r}, {self.color_g}, {self.color_b})")
         self.get_logger().info(f"  Marker ID: {self.marker_id}")
+        self.get_logger().info(f"  Status: WAITING for /goal_pose message")
         self.get_logger().info("=" * 50)
         
         # Create service clients (shared across instances)
@@ -76,8 +81,15 @@ class MovingObstacleNode(Node):
         # TF broadcaster for the obstacle
         self.tf_broadcaster = TransformBroadcaster(self)
         
+        # Subscribe to /goal_pose to trigger movement
+        self.goal_pose_sub = self.create_subscription(
+            PoseStamped,
+            '/goal_pose',
+            self.goal_pose_callback,
+            10
+        )
+        
         self.spawned = False
-        self.start_time = self.get_clock().now()
         
         # Wait for services
         self.get_logger().info("Waiting for Gazebo spawn service...")
@@ -91,6 +103,14 @@ class MovingObstacleNode(Node):
         
         # Create timer for updating position (30 Hz)
         self.timer = self.create_timer(1.0/30.0, self.update_position)
+        
+    def goal_pose_callback(self, msg):
+        """Callback when goal_pose is received - starts the movement"""
+        if not self.movement_started:
+            self.movement_started = True
+            self.start_time = self.get_clock().now()
+            self.get_logger().info(f"🚀 {self.model_name}: Movement STARTED! (Goal pose received)")
+            self.get_logger().info(f"   Goal: x={msg.pose.position.x:.2f}, y={msg.pose.position.y:.2f}")
         
     def generate_sdf(self):
         """Generate SDF model string with physics plugin"""
@@ -287,6 +307,20 @@ class MovingObstacleNode(Node):
     def update_position(self):
         """Update obstacle position based on trajectory"""
         if not self.spawned:
+            return
+        
+        # Don't move until goal_pose is received
+        if not self.movement_started:
+            # Keep obstacle stationary at start position
+            twist = Twist()
+            twist.linear.x = 0.0
+            twist.linear.y = 0.0
+            twist.angular.z = 0.0
+            self.cmd_vel_pub.publish(twist)
+            
+            # Still visualize the static position and planned path
+            if self.visualize_path:
+                self.publish_marker(self.start_x, self.start_y, 0.0)
             return
             
         current_time = self.get_clock().now()
