@@ -1,0 +1,26 @@
+============================================================
+ROBOT TRAJECTORY STATISTICS
+============================================================
+
+Generated: 2026-02-13 22:16:53
+
+TRAJECTORY METRICS
+------------------------------------------------------------
+Total Path Length: 0.345 meters
+Number of Points: 287
+
+OBSTACLE PROXIMITY
+------------------------------------------------------------
+Minimum Distance to Obstacle: 2.136 meters
+Time of Minimum Distance: 03:00:23
+Average Distance to Obstacles: 2.525 meters
+Maximum Distance to Obstacles: 2.913 meters
+
+Number of Active Obstacles: 1
+
+OBSTACLE POSITIONS
+------------------------------------------------------------
+Obstacle 1 (/moving_obstacle_marker/obs1):
+  Position: X=1.375m, Y=-2.016m, Z=0.750m
+
+============================================================

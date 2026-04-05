@@ -1,0 +1,2092 @@
+{
+  "runs": [
+    {
+      "run_id": "run_20260308_194205",
+      "metrics": {
+        "total_path_length_m": 2.972,
+        "min_obstacle_distance_m": 0.926,
+        "straight_line_distance_m": 2.77
+      },
+      "plot_filename": "trajectory_20260308_194205.png"
+    },
+    {
+      "run_id": "run_20260308_194312",
+      "metrics": {
+        "total_path_length_m": 2.357,
+        "min_obstacle_distance_m": 0.876,
+        "straight_line_distance_m": 2.189
+      },
+      "plot_filename": "trajectory_20260308_194312.png"
+    },
+    {
+      "run_id": "run_20260308_194413",
+      "metrics": {
+        "total_path_length_m": 2.633,
+        "min_obstacle_distance_m": 0.883,
+        "straight_line_distance_m": 2.401
+      },
+      "plot_filename": "trajectory_20260308_194413.png"
+    },
+    {
+      "run_id": "run_20260308_194522",
+      "metrics": {
+        "total_path_length_m": 2.747,
+        "min_obstacle_distance_m": 0.895,
+        "straight_line_distance_m": 2.57
+      },
+      "plot_filename": "trajectory_20260308_194522.png"
+    },
+    {
+      "run_id": "run_20260308_194632",
+      "metrics": {
+        "total_path_length_m": 2.876,
+        "min_obstacle_distance_m": 0.894,
+        "straight_line_distance_m": 2.684
+      },
+      "plot_filename": "trajectory_20260308_194632.png"
+    },
+    {
+      "run_id": "run_20260308_194742",
+      "metrics": {
+        "total_path_length_m": 2.812,
+        "min_obstacle_distance_m": 0.997,
+        "straight_line_distance_m": 2.549
+      },
+      "plot_filename": "trajectory_20260308_194742.png"
+    },
+    {
+      "run_id": "run_20260308_194853",
+      "metrics": {
+        "total_path_length_m": 2.793,
+        "min_obstacle_distance_m": 0.877,
+        "straight_line_distance_m": 2.622
+      },
+      "plot_filename": "trajectory_20260308_194853.png"
+    },
+    {
+      "run_id": "run_20260308_194953",
+      "metrics": {
+        "total_path_length_m": 2.508,
+        "min_obstacle_distance_m": 0.916,
+        "straight_line_distance_m": 2.327
+      },
+      "plot_filename": "trajectory_20260308_194953.png"
+    },
+    {
+      "run_id": "run_20260308_195053",
+      "metrics": {
+        "total_path_length_m": 2.834,
+        "min_obstacle_distance_m": 0.924,
+        "straight_line_distance_m": 2.607
+      },
+      "plot_filename": "trajectory_20260308_195053.png"
+    },
+    {
+      "run_id": "run_20260308_203404",
+      "metrics": {
+        "total_path_length_m": 2.73,
+        "min_obstacle_distance_m": 1.264,
+        "straight_line_distance_m": 2.528
+      },
+      "plot_filename": "trajectory_20260308_203404.png"
+    },
+    {
+      "run_id": "run_20260308_203508",
+      "metrics": {
+        "total_path_length_m": 3.158,
+        "min_obstacle_distance_m": 1.323,
+        "straight_line_distance_m": 2.92
+      },
+      "plot_filename": "trajectory_20260308_203508.png"
+    },
+    {
+      "run_id": "run_20260308_203608",
+      "metrics": {
+        "total_path_length_m": 3.166,
+        "min_obstacle_distance_m": 1.294,
+        "straight_line_distance_m": 2.897
+      },
+      "plot_filename": "trajectory_20260308_203608.png"
+    },
+    {
+      "run_id": "run_20260308_203707",
+      "metrics": {
+        "total_path_length_m": 3.227,
+        "min_obstacle_distance_m": 1.309,
+        "straight_line_distance_m": 2.97
+      },
+      "plot_filename": "trajectory_20260308_203707.png"
+    },
+    {
+      "run_id": "run_20260308_203810",
+      "metrics": {
+        "total_path_length_m": 3.173,
+        "min_obstacle_distance_m": 1.337,
+        "straight_line_distance_m": 2.942
+      },
+      "plot_filename": "trajectory_20260308_203810.png"
+    },
+    {
+      "run_id": "run_20260308_203908",
+      "metrics": {
+        "total_path_length_m": 2.697,
+        "min_obstacle_distance_m": 1.215,
+        "straight_line_distance_m": 2.479
+      },
+      "plot_filename": "trajectory_20260308_203908.png"
+    },
+    {
+      "run_id": "run_20260308_204006",
+      "metrics": {
+        "total_path_length_m": 2.603,
+        "min_obstacle_distance_m": 1.286,
+        "straight_line_distance_m": 2.435
+      },
+      "plot_filename": "trajectory_20260308_204006.png"
+    },
+    {
+      "run_id": "run_20260308_204105",
+      "metrics": {
+        "total_path_length_m": 2.738,
+        "min_obstacle_distance_m": 1.272,
+        "straight_line_distance_m": 2.555
+      },
+      "plot_filename": "trajectory_20260308_204105.png"
+    },
+    {
+      "run_id": "run_20260308_204207",
+      "metrics": {
+        "total_path_length_m": 2.92,
+        "min_obstacle_distance_m": 1.288,
+        "straight_line_distance_m": 2.711
+      },
+      "plot_filename": "trajectory_20260308_204207.png"
+    },
+    {
+      "run_id": "run_20260308_204305",
+      "metrics": {
+        "total_path_length_m": 2.636,
+        "min_obstacle_distance_m": 1.309,
+        "straight_line_distance_m": 2.471
+      },
+      "plot_filename": "trajectory_20260308_204305.png"
+    },
+    {
+      "run_id": "run_20260308_211514",
+      "metrics": {
+        "total_path_length_m": 2.404,
+        "min_obstacle_distance_m": 0.191,
+        "straight_line_distance_m": 2.221
+      },
+      "plot_filename": "trajectory_20260308_211514.png"
+    },
+    {
+      "run_id": "run_20260308_211629",
+      "metrics": {
+        "total_path_length_m": 2.94,
+        "min_obstacle_distance_m": 0.262,
+        "straight_line_distance_m": 2.707
+      },
+      "plot_filename": "trajectory_20260308_211629.png"
+    },
+    {
+      "run_id": "run_20260308_211740",
+      "metrics": {
+        "total_path_length_m": 2.371,
+        "min_obstacle_distance_m": 0.143,
+        "straight_line_distance_m": 2.228
+      },
+      "plot_filename": "trajectory_20260308_211740.png"
+    },
+    {
+      "run_id": "run_20260308_211844",
+      "metrics": {
+        "total_path_length_m": 2.884,
+        "min_obstacle_distance_m": 0.21,
+        "straight_line_distance_m": 2.698
+      },
+      "plot_filename": "trajectory_20260308_211844.png"
+    },
+    {
+      "run_id": "run_20260308_211947",
+      "metrics": {
+        "total_path_length_m": 2.875,
+        "min_obstacle_distance_m": 0.267,
+        "straight_line_distance_m": 2.65
+      },
+      "plot_filename": "trajectory_20260308_211947.png"
+    },
+    {
+      "run_id": "run_20260308_212055",
+      "metrics": {
+        "total_path_length_m": 2.332,
+        "min_obstacle_distance_m": 0.171,
+        "straight_line_distance_m": 2.191
+      },
+      "plot_filename": "trajectory_20260308_212055.png"
+    },
+    {
+      "run_id": "run_20260308_212158",
+      "metrics": {
+        "total_path_length_m": 2.333,
+        "min_obstacle_distance_m": 0.169,
+        "straight_line_distance_m": 2.193
+      },
+      "plot_filename": "trajectory_20260308_212158.png"
+    },
+    {
+      "run_id": "run_20260308_212305",
+      "metrics": {
+        "total_path_length_m": 2.509,
+        "min_obstacle_distance_m": 0.196,
+        "straight_line_distance_m": 2.257
+      },
+      "plot_filename": "trajectory_20260308_212305.png"
+    },
+    {
+      "run_id": "run_20260308_212417",
+      "metrics": {
+        "total_path_length_m": 3.083,
+        "min_obstacle_distance_m": 0.159,
+        "straight_line_distance_m": 2.805
+      },
+      "plot_filename": "trajectory_20260308_212417.png"
+    },
+    {
+      "run_id": "run_20260308_212544",
+      "metrics": {
+        "total_path_length_m": 3.11,
+        "min_obstacle_distance_m": 0.201,
+        "straight_line_distance_m": 2.968
+      },
+      "plot_filename": "trajectory_20260308_212544.png"
+    },
+    {
+      "run_id": "run_20260308_215842",
+      "metrics": {
+        "total_path_length_m": 3.6,
+        "min_obstacle_distance_m": 0.547,
+        "straight_line_distance_m": 2.914
+      },
+      "plot_filename": "trajectory_20260308_215842.png"
+    },
+    {
+      "run_id": "run_20260308_215945",
+      "metrics": {
+        "total_path_length_m": 3.249,
+        "min_obstacle_distance_m": 0.499,
+        "straight_line_distance_m": 2.658
+      },
+      "plot_filename": "trajectory_20260308_215945.png"
+    },
+    {
+      "run_id": "run_20260308_220047",
+      "metrics": {
+        "total_path_length_m": 3.535,
+        "min_obstacle_distance_m": 0.541,
+        "straight_line_distance_m": 2.877
+      },
+      "plot_filename": "trajectory_20260308_220047.png"
+    },
+    {
+      "run_id": "run_20260308_220147",
+      "metrics": {
+        "total_path_length_m": 3.355,
+        "min_obstacle_distance_m": 0.525,
+        "straight_line_distance_m": 2.711
+      },
+      "plot_filename": "trajectory_20260308_220147.png"
+    },
+    {
+      "run_id": "run_20260308_220253",
+      "metrics": {
+        "total_path_length_m": 3.26,
+        "min_obstacle_distance_m": 0.69,
+        "straight_line_distance_m": 2.634
+      },
+      "plot_filename": "trajectory_20260308_220253.png"
+    },
+    {
+      "run_id": "run_20260308_220358",
+      "metrics": {
+        "total_path_length_m": 6.57,
+        "min_obstacle_distance_m": 0.7,
+        "straight_line_distance_m": 3.051
+      },
+      "plot_filename": "trajectory_20260308_220358.png"
+    },
+    {
+      "run_id": "run_20260308_220529",
+      "metrics": {
+        "total_path_length_m": 3.249,
+        "min_obstacle_distance_m": 0.45,
+        "straight_line_distance_m": 2.65
+      },
+      "plot_filename": "trajectory_20260308_220529.png"
+    },
+    {
+      "run_id": "run_20260308_220632",
+      "metrics": {
+        "total_path_length_m": 3.215,
+        "min_obstacle_distance_m": 0.506,
+        "straight_line_distance_m": 2.657
+      },
+      "plot_filename": "trajectory_20260308_220632.png"
+    },
+    {
+      "run_id": "run_20260308_220731",
+      "metrics": {
+        "total_path_length_m": 3.204,
+        "min_obstacle_distance_m": 0.466,
+        "straight_line_distance_m": 2.684
+      },
+      "plot_filename": "trajectory_20260308_220731.png"
+    },
+    {
+      "run_id": "run_20260308_220838",
+      "metrics": {
+        "total_path_length_m": 3.18,
+        "min_obstacle_distance_m": 0.561,
+        "straight_line_distance_m": 2.58
+      },
+      "plot_filename": "trajectory_20260308_220838.png"
+    },
+    {
+      "run_id": "run_20260308_224207",
+      "metrics": {
+        "total_path_length_m": 2.362,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.269
+      },
+      "plot_filename": "trajectory_20260308_224207.png"
+    },
+    {
+      "run_id": "run_20260308_224308",
+      "metrics": {
+        "total_path_length_m": 2.922,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.811
+      },
+      "plot_filename": "trajectory_20260308_224308.png"
+    },
+    {
+      "run_id": "run_20260308_224408",
+      "metrics": {
+        "total_path_length_m": 2.617,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.53
+      },
+      "plot_filename": "trajectory_20260308_224408.png"
+    },
+    {
+      "run_id": "run_20260308_224504",
+      "metrics": {
+        "total_path_length_m": 2.513,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.425
+      },
+      "plot_filename": "trajectory_20260308_224504.png"
+    },
+    {
+      "run_id": "run_20260308_224605",
+      "metrics": {
+        "total_path_length_m": 2.901,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.784
+      },
+      "plot_filename": "trajectory_20260308_224605.png"
+    },
+    {
+      "run_id": "run_20260308_224703",
+      "metrics": {
+        "total_path_length_m": 2.372,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.258
+      },
+      "plot_filename": "trajectory_20260308_224703.png"
+    },
+    {
+      "run_id": "run_20260308_224802",
+      "metrics": {
+        "total_path_length_m": 2.532,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.431
+      },
+      "plot_filename": "trajectory_20260308_224802.png"
+    },
+    {
+      "run_id": "run_20260308_224902",
+      "metrics": {
+        "total_path_length_m": 2.916,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.816
+      },
+      "plot_filename": "trajectory_20260308_224902.png"
+    },
+    {
+      "run_id": "run_20260308_225001",
+      "metrics": {
+        "total_path_length_m": 2.291,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.209
+      },
+      "plot_filename": "trajectory_20260308_225001.png"
+    },
+    {
+      "run_id": "run_20260308_225059",
+      "metrics": {
+        "total_path_length_m": 2.79,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.681
+      },
+      "plot_filename": "trajectory_20260308_225059.png"
+    },
+    {
+      "run_id": "run_20260309_003204",
+      "metrics": {
+        "total_path_length_m": 2.644,
+        "min_obstacle_distance_m": 0.882,
+        "straight_line_distance_m": 2.534
+      },
+      "plot_filename": "trajectory_20260309_003204.png"
+    },
+    {
+      "run_id": "run_20260309_003310",
+      "metrics": {
+        "total_path_length_m": 3.996,
+        "min_obstacle_distance_m": 0.853,
+        "straight_line_distance_m": 2.901
+      },
+      "plot_filename": "trajectory_20260309_003310.png"
+    },
+    {
+      "run_id": "run_20260309_003420",
+      "metrics": {
+        "total_path_length_m": 3.06,
+        "min_obstacle_distance_m": 0.684,
+        "straight_line_distance_m": 2.941
+      },
+      "plot_filename": "trajectory_20260309_003420.png"
+    },
+    {
+      "run_id": "run_20260309_003527",
+      "metrics": {
+        "total_path_length_m": 2.651,
+        "min_obstacle_distance_m": 0.452,
+        "straight_line_distance_m": 2.556
+      },
+      "plot_filename": "trajectory_20260309_003527.png"
+    },
+    {
+      "run_id": "run_20260309_003635",
+      "metrics": {
+        "total_path_length_m": 2.648,
+        "min_obstacle_distance_m": 0.501,
+        "straight_line_distance_m": 2.552
+      },
+      "plot_filename": "trajectory_20260309_003635.png"
+    },
+    {
+      "run_id": "run_20260309_003738",
+      "metrics": {
+        "total_path_length_m": 2.885,
+        "min_obstacle_distance_m": 0.839,
+        "straight_line_distance_m": 2.773
+      },
+      "plot_filename": "trajectory_20260309_003738.png"
+    },
+    {
+      "run_id": "run_20260309_003836",
+      "metrics": {
+        "total_path_length_m": 3.053,
+        "min_obstacle_distance_m": 0.858,
+        "straight_line_distance_m": 2.907
+      },
+      "plot_filename": "trajectory_20260309_003836.png"
+    },
+    {
+      "run_id": "run_20260309_003945",
+      "metrics": {
+        "total_path_length_m": 2.488,
+        "min_obstacle_distance_m": 0.825,
+        "straight_line_distance_m": 2.377
+      },
+      "plot_filename": "trajectory_20260309_003945.png"
+    },
+    {
+      "run_id": "run_20260309_004056",
+      "metrics": {
+        "total_path_length_m": 2.274,
+        "min_obstacle_distance_m": 0.831,
+        "straight_line_distance_m": 2.169
+      },
+      "plot_filename": "trajectory_20260309_004056.png"
+    },
+    {
+      "run_id": "run_20260309_004158",
+      "metrics": {
+        "total_path_length_m": 3.045,
+        "min_obstacle_distance_m": 0.825,
+        "straight_line_distance_m": 2.921
+      },
+      "plot_filename": "trajectory_20260309_004158.png"
+    },
+    {
+      "run_id": "run_20260309_004301",
+      "metrics": {
+        "total_path_length_m": 2.959,
+        "min_obstacle_distance_m": 0.807,
+        "straight_line_distance_m": 2.842
+      },
+      "plot_filename": "trajectory_20260309_004301.png"
+    },
+    {
+      "run_id": "run_20260309_004411",
+      "metrics": {
+        "total_path_length_m": 3.076,
+        "min_obstacle_distance_m": 0.634,
+        "straight_line_distance_m": 2.978
+      },
+      "plot_filename": "trajectory_20260309_004411.png"
+    },
+    {
+      "run_id": "run_20260309_004518",
+      "metrics": {
+        "total_path_length_m": 2.403,
+        "min_obstacle_distance_m": 0.869,
+        "straight_line_distance_m": 2.284
+      },
+      "plot_filename": "trajectory_20260309_004518.png"
+    },
+    {
+      "run_id": "run_20260309_004623",
+      "metrics": {
+        "total_path_length_m": 2.883,
+        "min_obstacle_distance_m": 0.553,
+        "straight_line_distance_m": 2.78
+      },
+      "plot_filename": "trajectory_20260309_004623.png"
+    },
+    {
+      "run_id": "run_20260309_004732",
+      "metrics": {
+        "total_path_length_m": 2.612,
+        "min_obstacle_distance_m": 0.859,
+        "straight_line_distance_m": 2.495
+      },
+      "plot_filename": "trajectory_20260309_004732.png"
+    },
+    {
+      "run_id": "run_20260309_004836",
+      "metrics": {
+        "total_path_length_m": 2.722,
+        "min_obstacle_distance_m": 0.751,
+        "straight_line_distance_m": 2.614
+      },
+      "plot_filename": "trajectory_20260309_004836.png"
+    },
+    {
+      "run_id": "run_20260309_004940",
+      "metrics": {
+        "total_path_length_m": 2.477,
+        "min_obstacle_distance_m": 0.777,
+        "straight_line_distance_m": 2.379
+      },
+      "plot_filename": "trajectory_20260309_004940.png"
+    },
+    {
+      "run_id": "run_20260309_005044",
+      "metrics": {
+        "total_path_length_m": 2.924,
+        "min_obstacle_distance_m": 0.772,
+        "straight_line_distance_m": 2.808
+      },
+      "plot_filename": "trajectory_20260309_005044.png"
+    },
+    {
+      "run_id": "run_20260309_005150",
+      "metrics": {
+        "total_path_length_m": 3.662,
+        "min_obstacle_distance_m": 0.794,
+        "straight_line_distance_m": 2.895
+      },
+      "plot_filename": "trajectory_20260309_005150.png"
+    },
+    {
+      "run_id": "run_20260309_005300",
+      "metrics": {
+        "total_path_length_m": 2.931,
+        "min_obstacle_distance_m": 0.805,
+        "straight_line_distance_m": 2.82
+      },
+      "plot_filename": "trajectory_20260309_005300.png"
+    },
+    {
+      "run_id": "run_20260309_020300",
+      "metrics": {
+        "total_path_length_m": 3.007,
+        "min_obstacle_distance_m": 0.76,
+        "straight_line_distance_m": 2.908
+      },
+      "plot_filename": "trajectory_20260309_020300.png"
+    },
+    {
+      "run_id": "run_20260309_020405",
+      "metrics": {
+        "total_path_length_m": 4.05,
+        "min_obstacle_distance_m": 0.679,
+        "straight_line_distance_m": 3.047
+      },
+      "plot_filename": "trajectory_20260309_020405.png"
+    },
+    {
+      "run_id": "run_20260309_020514",
+      "metrics": {
+        "total_path_length_m": 2.365,
+        "min_obstacle_distance_m": 0.952,
+        "straight_line_distance_m": 2.275
+      },
+      "plot_filename": "trajectory_20260309_020514.png"
+    },
+    {
+      "run_id": "run_20260309_020618",
+      "metrics": {
+        "total_path_length_m": 2.886,
+        "min_obstacle_distance_m": 0.865,
+        "straight_line_distance_m": 2.771
+      },
+      "plot_filename": "trajectory_20260309_020618.png"
+    },
+    {
+      "run_id": "run_20260309_020724",
+      "metrics": {
+        "total_path_length_m": 2.53,
+        "min_obstacle_distance_m": 1.027,
+        "straight_line_distance_m": 2.423
+      },
+      "plot_filename": "trajectory_20260309_020724.png"
+    },
+    {
+      "run_id": "run_20260309_020827",
+      "metrics": {
+        "total_path_length_m": 2.373,
+        "min_obstacle_distance_m": 0.992,
+        "straight_line_distance_m": 2.283
+      },
+      "plot_filename": "trajectory_20260309_020827.png"
+    },
+    {
+      "run_id": "run_20260309_020933",
+      "metrics": {
+        "total_path_length_m": 4.045,
+        "min_obstacle_distance_m": 0.497,
+        "straight_line_distance_m": 3.121
+      },
+      "plot_filename": "trajectory_20260309_020933.png"
+    },
+    {
+      "run_id": "run_20260309_021058",
+      "metrics": {
+        "total_path_length_m": 2.911,
+        "min_obstacle_distance_m": 0.672,
+        "straight_line_distance_m": 2.819
+      },
+      "plot_filename": "trajectory_20260309_021058.png"
+    },
+    {
+      "run_id": "run_20260309_021200",
+      "metrics": {
+        "total_path_length_m": 2.991,
+        "min_obstacle_distance_m": 0.747,
+        "straight_line_distance_m": 2.889
+      },
+      "plot_filename": "trajectory_20260309_021200.png"
+    },
+    {
+      "run_id": "run_20260309_021305",
+      "metrics": {
+        "total_path_length_m": 2.782,
+        "min_obstacle_distance_m": 0.892,
+        "straight_line_distance_m": 2.674
+      },
+      "plot_filename": "trajectory_20260309_021305.png"
+    },
+    {
+      "run_id": "run_20260309_021403",
+      "metrics": {
+        "total_path_length_m": 2.465,
+        "min_obstacle_distance_m": 0.952,
+        "straight_line_distance_m": 2.362
+      },
+      "plot_filename": "trajectory_20260309_021403.png"
+    },
+    {
+      "run_id": "run_20260309_021502",
+      "metrics": {
+        "total_path_length_m": 2.543,
+        "min_obstacle_distance_m": 0.865,
+        "straight_line_distance_m": 2.445
+      },
+      "plot_filename": "trajectory_20260309_021502.png"
+    },
+    {
+      "run_id": "run_20260309_021610",
+      "metrics": {
+        "total_path_length_m": 2.546,
+        "min_obstacle_distance_m": 0.848,
+        "straight_line_distance_m": 2.451
+      },
+      "plot_filename": "trajectory_20260309_021610.png"
+    },
+    {
+      "run_id": "run_20260309_021714",
+      "metrics": {
+        "total_path_length_m": 4.933,
+        "min_obstacle_distance_m": 0.546,
+        "straight_line_distance_m": 2.713
+      },
+      "plot_filename": "trajectory_20260309_021714.png"
+    },
+    {
+      "run_id": "run_20260309_021829",
+      "metrics": {
+        "total_path_length_m": 2.821,
+        "min_obstacle_distance_m": 1.02,
+        "straight_line_distance_m": 2.681
+      },
+      "plot_filename": "trajectory_20260309_021829.png"
+    },
+    {
+      "run_id": "run_20260309_021930",
+      "metrics": {
+        "total_path_length_m": 2.327,
+        "min_obstacle_distance_m": 0.859,
+        "straight_line_distance_m": 2.222
+      },
+      "plot_filename": "trajectory_20260309_021930.png"
+    },
+    {
+      "run_id": "run_20260309_022038",
+      "metrics": {
+        "total_path_length_m": 2.624,
+        "min_obstacle_distance_m": 0.88,
+        "straight_line_distance_m": 2.531
+      },
+      "plot_filename": "trajectory_20260309_022038.png"
+    },
+    {
+      "run_id": "run_20260309_022142",
+      "metrics": {
+        "total_path_length_m": 2.872,
+        "min_obstacle_distance_m": 0.929,
+        "straight_line_distance_m": 2.763
+      },
+      "plot_filename": "trajectory_20260309_022142.png"
+    },
+    {
+      "run_id": "run_20260309_022247",
+      "metrics": {
+        "total_path_length_m": 2.678,
+        "min_obstacle_distance_m": 1.028,
+        "straight_line_distance_m": 2.566
+      },
+      "plot_filename": "trajectory_20260309_022247.png"
+    },
+    {
+      "run_id": "run_20260309_022348",
+      "metrics": {
+        "total_path_length_m": 2.419,
+        "min_obstacle_distance_m": 0.913,
+        "straight_line_distance_m": 2.326
+      },
+      "plot_filename": "trajectory_20260309_022348.png"
+    },
+    {
+      "run_id": "run_20260309_033158",
+      "metrics": {
+        "total_path_length_m": 2.287,
+        "min_obstacle_distance_m": 1.088,
+        "straight_line_distance_m": 2.183
+      },
+      "plot_filename": "trajectory_20260309_033158.png"
+    },
+    {
+      "run_id": "run_20260309_033300",
+      "metrics": {
+        "total_path_length_m": 2.532,
+        "min_obstacle_distance_m": 1.222,
+        "straight_line_distance_m": 2.439
+      },
+      "plot_filename": "trajectory_20260309_033300.png"
+    },
+    {
+      "run_id": "run_20260309_033404",
+      "metrics": {
+        "total_path_length_m": 2.878,
+        "min_obstacle_distance_m": 1.097,
+        "straight_line_distance_m": 2.775
+      },
+      "plot_filename": "trajectory_20260309_033404.png"
+    },
+    {
+      "run_id": "run_20260309_033505",
+      "metrics": {
+        "total_path_length_m": 2.7,
+        "min_obstacle_distance_m": 1.057,
+        "straight_line_distance_m": 2.561
+      },
+      "plot_filename": "trajectory_20260309_033505.png"
+    },
+    {
+      "run_id": "run_20260309_033604",
+      "metrics": {
+        "total_path_length_m": 2.689,
+        "min_obstacle_distance_m": 1.03,
+        "straight_line_distance_m": 2.572
+      },
+      "plot_filename": "trajectory_20260309_033604.png"
+    },
+    {
+      "run_id": "run_20260309_033704",
+      "metrics": {
+        "total_path_length_m": 2.398,
+        "min_obstacle_distance_m": 1.06,
+        "straight_line_distance_m": 2.294
+      },
+      "plot_filename": "trajectory_20260309_033704.png"
+    },
+    {
+      "run_id": "run_20260309_033808",
+      "metrics": {
+        "total_path_length_m": 2.739,
+        "min_obstacle_distance_m": 1.143,
+        "straight_line_distance_m": 2.641
+      },
+      "plot_filename": "trajectory_20260309_033808.png"
+    },
+    {
+      "run_id": "run_20260309_033911",
+      "metrics": {
+        "total_path_length_m": 2.654,
+        "min_obstacle_distance_m": 1.023,
+        "straight_line_distance_m": 2.556
+      },
+      "plot_filename": "trajectory_20260309_033911.png"
+    },
+    {
+      "run_id": "run_20260309_034012",
+      "metrics": {
+        "total_path_length_m": 2.201,
+        "min_obstacle_distance_m": 1.12,
+        "straight_line_distance_m": 2.103
+      },
+      "plot_filename": "trajectory_20260309_034012.png"
+    },
+    {
+      "run_id": "run_20260309_034115",
+      "metrics": {
+        "total_path_length_m": 2.968,
+        "min_obstacle_distance_m": 1.096,
+        "straight_line_distance_m": 2.859
+      },
+      "plot_filename": "trajectory_20260309_034115.png"
+    },
+    {
+      "run_id": "run_20260309_034216",
+      "metrics": {
+        "total_path_length_m": 3.029,
+        "min_obstacle_distance_m": 0.603,
+        "straight_line_distance_m": 2.932
+      },
+      "plot_filename": "trajectory_20260309_034216.png"
+    },
+    {
+      "run_id": "run_20260309_034324",
+      "metrics": {
+        "total_path_length_m": 2.627,
+        "min_obstacle_distance_m": 1.16,
+        "straight_line_distance_m": 2.524
+      },
+      "plot_filename": "trajectory_20260309_034324.png"
+    },
+    {
+      "run_id": "run_20260309_034424",
+      "metrics": {
+        "total_path_length_m": 2.426,
+        "min_obstacle_distance_m": 1.161,
+        "straight_line_distance_m": 2.339
+      },
+      "plot_filename": "trajectory_20260309_034424.png"
+    },
+    {
+      "run_id": "run_20260309_034526",
+      "metrics": {
+        "total_path_length_m": 2.428,
+        "min_obstacle_distance_m": 1.219,
+        "straight_line_distance_m": 2.327
+      },
+      "plot_filename": "trajectory_20260309_034526.png"
+    },
+    {
+      "run_id": "run_20260309_034630",
+      "metrics": {
+        "total_path_length_m": 3.374,
+        "min_obstacle_distance_m": 0.638,
+        "straight_line_distance_m": 2.762
+      },
+      "plot_filename": "trajectory_20260309_034630.png"
+    },
+    {
+      "run_id": "run_20260309_034806",
+      "metrics": {
+        "total_path_length_m": 2.239,
+        "min_obstacle_distance_m": 1.06,
+        "straight_line_distance_m": 2.14
+      },
+      "plot_filename": "trajectory_20260309_034806.png"
+    },
+    {
+      "run_id": "run_20260309_034906",
+      "metrics": {
+        "total_path_length_m": 2.293,
+        "min_obstacle_distance_m": 1.127,
+        "straight_line_distance_m": 2.194
+      },
+      "plot_filename": "trajectory_20260309_034906.png"
+    },
+    {
+      "run_id": "run_20260309_035009",
+      "metrics": {
+        "total_path_length_m": 2.792,
+        "min_obstacle_distance_m": 1.122,
+        "straight_line_distance_m": 2.69
+      },
+      "plot_filename": "trajectory_20260309_035009.png"
+    },
+    {
+      "run_id": "run_20260309_035111",
+      "metrics": {
+        "total_path_length_m": 2.442,
+        "min_obstacle_distance_m": 0.967,
+        "straight_line_distance_m": 2.34
+      },
+      "plot_filename": "trajectory_20260309_035111.png"
+    },
+    {
+      "run_id": "run_20260309_035213",
+      "metrics": {
+        "total_path_length_m": 2.875,
+        "min_obstacle_distance_m": 0.199,
+        "straight_line_distance_m": 2.616
+      },
+      "plot_filename": "trajectory_20260309_035213.png"
+    },
+    {
+      "run_id": "run_20260309_050022",
+      "metrics": {
+        "total_path_length_m": 2.791,
+        "min_obstacle_distance_m": 0.4,
+        "straight_line_distance_m": 2.662
+      },
+      "plot_filename": "trajectory_20260309_050022.png"
+    },
+    {
+      "run_id": "run_20260309_050126",
+      "metrics": {
+        "total_path_length_m": 2.427,
+        "min_obstacle_distance_m": 0.259,
+        "straight_line_distance_m": 2.328
+      },
+      "plot_filename": "trajectory_20260309_050126.png"
+    },
+    {
+      "run_id": "run_20260309_050225",
+      "metrics": {
+        "total_path_length_m": 2.648,
+        "min_obstacle_distance_m": 0.29,
+        "straight_line_distance_m": 2.531
+      },
+      "plot_filename": "trajectory_20260309_050225.png"
+    },
+    {
+      "run_id": "run_20260309_050331",
+      "metrics": {
+        "total_path_length_m": 2.802,
+        "min_obstacle_distance_m": 0.231,
+        "straight_line_distance_m": 2.675
+      },
+      "plot_filename": "trajectory_20260309_050331.png"
+    },
+    {
+      "run_id": "run_20260309_050432",
+      "metrics": {
+        "total_path_length_m": 2.547,
+        "min_obstacle_distance_m": 0.279,
+        "straight_line_distance_m": 2.443
+      },
+      "plot_filename": "trajectory_20260309_050432.png"
+    },
+    {
+      "run_id": "run_20260309_050533",
+      "metrics": {
+        "total_path_length_m": 2.515,
+        "min_obstacle_distance_m": 0.356,
+        "straight_line_distance_m": 2.403
+      },
+      "plot_filename": "trajectory_20260309_050533.png"
+    },
+    {
+      "run_id": "run_20260309_050637",
+      "metrics": {
+        "total_path_length_m": 3.224,
+        "min_obstacle_distance_m": 0.386,
+        "straight_line_distance_m": 3.052
+      },
+      "plot_filename": "trajectory_20260309_050637.png"
+    },
+    {
+      "run_id": "run_20260309_050735",
+      "metrics": {
+        "total_path_length_m": 2.818,
+        "min_obstacle_distance_m": 0.24,
+        "straight_line_distance_m": 2.707
+      },
+      "plot_filename": "trajectory_20260309_050735.png"
+    },
+    {
+      "run_id": "run_20260309_050835",
+      "metrics": {
+        "total_path_length_m": 2.829,
+        "min_obstacle_distance_m": 0.294,
+        "straight_line_distance_m": 2.719
+      },
+      "plot_filename": "trajectory_20260309_050835.png"
+    },
+    {
+      "run_id": "run_20260309_050933",
+      "metrics": {
+        "total_path_length_m": 2.921,
+        "min_obstacle_distance_m": 0.248,
+        "straight_line_distance_m": 2.806
+      },
+      "plot_filename": "trajectory_20260309_050933.png"
+    },
+    {
+      "run_id": "run_20260309_051033",
+      "metrics": {
+        "total_path_length_m": 2.777,
+        "min_obstacle_distance_m": 0.235,
+        "straight_line_distance_m": 2.661
+      },
+      "plot_filename": "trajectory_20260309_051033.png"
+    },
+    {
+      "run_id": "run_20260309_051137",
+      "metrics": {
+        "total_path_length_m": 2.629,
+        "min_obstacle_distance_m": 0.405,
+        "straight_line_distance_m": 2.513
+      },
+      "plot_filename": "trajectory_20260309_051137.png"
+    },
+    {
+      "run_id": "run_20260309_051239",
+      "metrics": {
+        "total_path_length_m": 2.961,
+        "min_obstacle_distance_m": 0.342,
+        "straight_line_distance_m": 2.84
+      },
+      "plot_filename": "trajectory_20260309_051239.png"
+    },
+    {
+      "run_id": "run_20260309_051346",
+      "metrics": {
+        "total_path_length_m": 2.851,
+        "min_obstacle_distance_m": 0.389,
+        "straight_line_distance_m": 2.708
+      },
+      "plot_filename": "trajectory_20260309_051346.png"
+    },
+    {
+      "run_id": "run_20260309_051446",
+      "metrics": {
+        "total_path_length_m": 2.615,
+        "min_obstacle_distance_m": 0.36,
+        "straight_line_distance_m": 2.499
+      },
+      "plot_filename": "trajectory_20260309_051446.png"
+    },
+    {
+      "run_id": "run_20260309_051549",
+      "metrics": {
+        "total_path_length_m": 3.931,
+        "min_obstacle_distance_m": 0.273,
+        "straight_line_distance_m": 3.542
+      },
+      "plot_filename": "trajectory_20260309_051549.png"
+    },
+    {
+      "run_id": "run_20260309_051800",
+      "metrics": {
+        "total_path_length_m": 3.056,
+        "min_obstacle_distance_m": 0.322,
+        "straight_line_distance_m": 2.91
+      },
+      "plot_filename": "trajectory_20260309_051800.png"
+    },
+    {
+      "run_id": "run_20260309_051859",
+      "metrics": {
+        "total_path_length_m": 2.905,
+        "min_obstacle_distance_m": 0.381,
+        "straight_line_distance_m": 2.767
+      },
+      "plot_filename": "trajectory_20260309_051859.png"
+    },
+    {
+      "run_id": "run_20260309_052003",
+      "metrics": {
+        "total_path_length_m": 2.71,
+        "min_obstacle_distance_m": 0.365,
+        "straight_line_distance_m": 2.584
+      },
+      "plot_filename": "trajectory_20260309_052003.png"
+    },
+    {
+      "run_id": "run_20260309_052103",
+      "metrics": {
+        "total_path_length_m": 2.885,
+        "min_obstacle_distance_m": 0.34,
+        "straight_line_distance_m": 2.764
+      },
+      "plot_filename": "trajectory_20260309_052103.png"
+    },
+    {
+      "run_id": "run_20260309_063017",
+      "metrics": {
+        "total_path_length_m": 2.653,
+        "min_obstacle_distance_m": 1.058,
+        "straight_line_distance_m": 2.485
+      },
+      "plot_filename": "trajectory_20260309_063017.png"
+    },
+    {
+      "run_id": "run_20260309_063124",
+      "metrics": {
+        "total_path_length_m": 2.73,
+        "min_obstacle_distance_m": 1.001,
+        "straight_line_distance_m": 2.504
+      },
+      "plot_filename": "trajectory_20260309_063124.png"
+    },
+    {
+      "run_id": "run_20260309_063226",
+      "metrics": {
+        "total_path_length_m": 2.964,
+        "min_obstacle_distance_m": 0.853,
+        "straight_line_distance_m": 2.722
+      },
+      "plot_filename": "trajectory_20260309_063226.png"
+    },
+    {
+      "run_id": "run_20260309_063335",
+      "metrics": {
+        "total_path_length_m": 2.834,
+        "min_obstacle_distance_m": 0.909,
+        "straight_line_distance_m": 2.601
+      },
+      "plot_filename": "trajectory_20260309_063335.png"
+    },
+    {
+      "run_id": "run_20260309_063446",
+      "metrics": {
+        "total_path_length_m": 2.604,
+        "min_obstacle_distance_m": 0.924,
+        "straight_line_distance_m": 2.423
+      },
+      "plot_filename": "trajectory_20260309_063446.png"
+    },
+    {
+      "run_id": "run_20260309_063556",
+      "metrics": {
+        "total_path_length_m": 2.889,
+        "min_obstacle_distance_m": 1.138,
+        "straight_line_distance_m": 2.686
+      },
+      "plot_filename": "trajectory_20260309_063556.png"
+    },
+    {
+      "run_id": "run_20260309_063702",
+      "metrics": {
+        "total_path_length_m": 2.714,
+        "min_obstacle_distance_m": 0.89,
+        "straight_line_distance_m": 2.554
+      },
+      "plot_filename": "trajectory_20260309_063702.png"
+    },
+    {
+      "run_id": "run_20260309_063758",
+      "metrics": {
+        "total_path_length_m": 4.148,
+        "min_obstacle_distance_m": 0.602,
+        "straight_line_distance_m": 3.297
+      },
+      "plot_filename": "trajectory_20260309_063758.png"
+    },
+    {
+      "run_id": "run_20260309_063906",
+      "metrics": {
+        "total_path_length_m": 2.396,
+        "min_obstacle_distance_m": 1.134,
+        "straight_line_distance_m": 2.257
+      },
+      "plot_filename": "trajectory_20260309_063906.png"
+    },
+    {
+      "run_id": "run_20260309_064020",
+      "metrics": {
+        "total_path_length_m": 3.157,
+        "min_obstacle_distance_m": 0.818,
+        "straight_line_distance_m": 2.945
+      },
+      "plot_filename": "trajectory_20260309_064020.png"
+    },
+    {
+      "run_id": "run_20260309_064133",
+      "metrics": {
+        "total_path_length_m": 2.77,
+        "min_obstacle_distance_m": 1.141,
+        "straight_line_distance_m": 2.621
+      },
+      "plot_filename": "trajectory_20260309_064133.png"
+    },
+    {
+      "run_id": "run_20260309_064241",
+      "metrics": {
+        "total_path_length_m": 2.485,
+        "min_obstacle_distance_m": 0.947,
+        "straight_line_distance_m": 2.309
+      },
+      "plot_filename": "trajectory_20260309_064241.png"
+    },
+    {
+      "run_id": "run_20260309_064336",
+      "metrics": {
+        "total_path_length_m": 2.832,
+        "min_obstacle_distance_m": 0.877,
+        "straight_line_distance_m": 2.643
+      },
+      "plot_filename": "trajectory_20260309_064336.png"
+    },
+    {
+      "run_id": "run_20260309_064443",
+      "metrics": {
+        "total_path_length_m": 2.936,
+        "min_obstacle_distance_m": 0.855,
+        "straight_line_distance_m": 2.75
+      },
+      "plot_filename": "trajectory_20260309_064443.png"
+    },
+    {
+      "run_id": "run_20260309_064540",
+      "metrics": {
+        "total_path_length_m": 2.828,
+        "min_obstacle_distance_m": 0.895,
+        "straight_line_distance_m": 2.642
+      },
+      "plot_filename": "trajectory_20260309_064540.png"
+    },
+    {
+      "run_id": "run_20260309_064650",
+      "metrics": {
+        "total_path_length_m": 2.77,
+        "min_obstacle_distance_m": 0.847,
+        "straight_line_distance_m": 2.56
+      },
+      "plot_filename": "trajectory_20260309_064650.png"
+    },
+    {
+      "run_id": "run_20260309_064804",
+      "metrics": {
+        "total_path_length_m": 2.596,
+        "min_obstacle_distance_m": 0.948,
+        "straight_line_distance_m": 2.372
+      },
+      "plot_filename": "trajectory_20260309_064804.png"
+    },
+    {
+      "run_id": "run_20260309_064903",
+      "metrics": {
+        "total_path_length_m": 2.605,
+        "min_obstacle_distance_m": 0.927,
+        "straight_line_distance_m": 2.341
+      },
+      "plot_filename": "trajectory_20260309_064903.png"
+    },
+    {
+      "run_id": "run_20260309_065012",
+      "metrics": {
+        "total_path_length_m": 2.887,
+        "min_obstacle_distance_m": 1.056,
+        "straight_line_distance_m": 2.75
+      },
+      "plot_filename": "trajectory_20260309_065012.png"
+    },
+    {
+      "run_id": "run_20260309_065122",
+      "metrics": {
+        "total_path_length_m": 3.229,
+        "min_obstacle_distance_m": 0.947,
+        "straight_line_distance_m": 3.01
+      },
+      "plot_filename": "trajectory_20260309_065122.png"
+    },
+    {
+      "run_id": "run_20260309_081938",
+      "metrics": {
+        "total_path_length_m": 3.154,
+        "min_obstacle_distance_m": 1.311,
+        "straight_line_distance_m": 2.947
+      },
+      "plot_filename": "trajectory_20260309_081938.png"
+    },
+    {
+      "run_id": "run_20260309_082038",
+      "metrics": {
+        "total_path_length_m": 3.1,
+        "min_obstacle_distance_m": 1.249,
+        "straight_line_distance_m": 2.856
+      },
+      "plot_filename": "trajectory_20260309_082038.png"
+    },
+    {
+      "run_id": "run_20260309_082138",
+      "metrics": {
+        "total_path_length_m": 3.29,
+        "min_obstacle_distance_m": 1.303,
+        "straight_line_distance_m": 3.049
+      },
+      "plot_filename": "trajectory_20260309_082138.png"
+    },
+    {
+      "run_id": "run_20260309_082235",
+      "metrics": {
+        "total_path_length_m": 3.166,
+        "min_obstacle_distance_m": 1.272,
+        "straight_line_distance_m": 2.935
+      },
+      "plot_filename": "trajectory_20260309_082235.png"
+    },
+    {
+      "run_id": "run_20260309_082335",
+      "metrics": {
+        "total_path_length_m": 3.17,
+        "min_obstacle_distance_m": 1.174,
+        "straight_line_distance_m": 2.916
+      },
+      "plot_filename": "trajectory_20260309_082335.png"
+    },
+    {
+      "run_id": "run_20260309_082438",
+      "metrics": {
+        "total_path_length_m": 3.125,
+        "min_obstacle_distance_m": 1.26,
+        "straight_line_distance_m": 2.911
+      },
+      "plot_filename": "trajectory_20260309_082438.png"
+    },
+    {
+      "run_id": "run_20260309_082539",
+      "metrics": {
+        "total_path_length_m": 2.667,
+        "min_obstacle_distance_m": 1.196,
+        "straight_line_distance_m": 2.488
+      },
+      "plot_filename": "trajectory_20260309_082539.png"
+    },
+    {
+      "run_id": "run_20260309_082640",
+      "metrics": {
+        "total_path_length_m": 2.544,
+        "min_obstacle_distance_m": 1.32,
+        "straight_line_distance_m": 2.375
+      },
+      "plot_filename": "trajectory_20260309_082640.png"
+    },
+    {
+      "run_id": "run_20260309_082741",
+      "metrics": {
+        "total_path_length_m": 3.214,
+        "min_obstacle_distance_m": 1.314,
+        "straight_line_distance_m": 2.984
+      },
+      "plot_filename": "trajectory_20260309_082741.png"
+    },
+    {
+      "run_id": "run_20260309_082846",
+      "metrics": {
+        "total_path_length_m": 2.604,
+        "min_obstacle_distance_m": 1.262,
+        "straight_line_distance_m": 2.431
+      },
+      "plot_filename": "trajectory_20260309_082846.png"
+    },
+    {
+      "run_id": "run_20260309_082950",
+      "metrics": {
+        "total_path_length_m": 3.224,
+        "min_obstacle_distance_m": 1.29,
+        "straight_line_distance_m": 3.031
+      },
+      "plot_filename": "trajectory_20260309_082950.png"
+    },
+    {
+      "run_id": "run_20260309_083046",
+      "metrics": {
+        "total_path_length_m": 2.585,
+        "min_obstacle_distance_m": 1.188,
+        "straight_line_distance_m": 2.322
+      },
+      "plot_filename": "trajectory_20260309_083046.png"
+    },
+    {
+      "run_id": "run_20260309_083148",
+      "metrics": {
+        "total_path_length_m": 3.32,
+        "min_obstacle_distance_m": 1.189,
+        "straight_line_distance_m": 3.022
+      },
+      "plot_filename": "trajectory_20260309_083148.png"
+    },
+    {
+      "run_id": "run_20260309_083249",
+      "metrics": {
+        "total_path_length_m": 3.227,
+        "min_obstacle_distance_m": 1.222,
+        "straight_line_distance_m": 2.959
+      },
+      "plot_filename": "trajectory_20260309_083249.png"
+    },
+    {
+      "run_id": "run_20260309_083346",
+      "metrics": {
+        "total_path_length_m": 3.266,
+        "min_obstacle_distance_m": 1.252,
+        "straight_line_distance_m": 3.007
+      },
+      "plot_filename": "trajectory_20260309_083346.png"
+    },
+    {
+      "run_id": "run_20260309_083444",
+      "metrics": {
+        "total_path_length_m": 3.054,
+        "min_obstacle_distance_m": 1.268,
+        "straight_line_distance_m": 2.823
+      },
+      "plot_filename": "trajectory_20260309_083444.png"
+    },
+    {
+      "run_id": "run_20260309_083542",
+      "metrics": {
+        "total_path_length_m": 2.804,
+        "min_obstacle_distance_m": 1.293,
+        "straight_line_distance_m": 2.602
+      },
+      "plot_filename": "trajectory_20260309_083542.png"
+    },
+    {
+      "run_id": "run_20260309_083638",
+      "metrics": {
+        "total_path_length_m": 3.199,
+        "min_obstacle_distance_m": 1.316,
+        "straight_line_distance_m": 2.974
+      },
+      "plot_filename": "trajectory_20260309_083638.png"
+    },
+    {
+      "run_id": "run_20260309_083736",
+      "metrics": {
+        "total_path_length_m": 2.837,
+        "min_obstacle_distance_m": 1.317,
+        "straight_line_distance_m": 2.661
+      },
+      "plot_filename": "trajectory_20260309_083736.png"
+    },
+    {
+      "run_id": "run_20260309_083841",
+      "metrics": {
+        "total_path_length_m": 3.174,
+        "min_obstacle_distance_m": 1.236,
+        "straight_line_distance_m": 2.943
+      },
+      "plot_filename": "trajectory_20260309_083841.png"
+    },
+    {
+      "run_id": "run_20260309_094300",
+      "metrics": {
+        "total_path_length_m": 2.818,
+        "min_obstacle_distance_m": 0.141,
+        "straight_line_distance_m": 2.687
+      },
+      "plot_filename": "trajectory_20260309_094300.png"
+    },
+    {
+      "run_id": "run_20260309_094406",
+      "metrics": {
+        "total_path_length_m": 3.125,
+        "min_obstacle_distance_m": 0.164,
+        "straight_line_distance_m": 2.784
+      },
+      "plot_filename": "trajectory_20260309_094406.png"
+    },
+    {
+      "run_id": "run_20260309_094518",
+      "metrics": {
+        "total_path_length_m": 3.635,
+        "min_obstacle_distance_m": 0.179,
+        "straight_line_distance_m": 2.756
+      },
+      "plot_filename": "trajectory_20260309_094518.png"
+    },
+    {
+      "run_id": "run_20260309_094724",
+      "metrics": {
+        "total_path_length_m": 2.803,
+        "min_obstacle_distance_m": 0.168,
+        "straight_line_distance_m": 2.646
+      },
+      "plot_filename": "trajectory_20260309_094724.png"
+    },
+    {
+      "run_id": "run_20260309_094840",
+      "metrics": {
+        "total_path_length_m": 2.922,
+        "min_obstacle_distance_m": 0.153,
+        "straight_line_distance_m": 2.779
+      },
+      "plot_filename": "trajectory_20260309_094840.png"
+    },
+    {
+      "run_id": "run_20260309_094945",
+      "metrics": {
+        "total_path_length_m": 3.015,
+        "min_obstacle_distance_m": 0.216,
+        "straight_line_distance_m": 2.826
+      },
+      "plot_filename": "trajectory_20260309_094945.png"
+    },
+    {
+      "run_id": "run_20260309_095101",
+      "metrics": {
+        "total_path_length_m": 3.038,
+        "min_obstacle_distance_m": 0.174,
+        "straight_line_distance_m": 2.886
+      },
+      "plot_filename": "trajectory_20260309_095101.png"
+    },
+    {
+      "run_id": "run_20260309_095206",
+      "metrics": {
+        "total_path_length_m": 2.656,
+        "min_obstacle_distance_m": 0.172,
+        "straight_line_distance_m": 2.356
+      },
+      "plot_filename": "trajectory_20260309_095206.png"
+    },
+    {
+      "run_id": "run_20260309_095330",
+      "metrics": {
+        "total_path_length_m": 2.657,
+        "min_obstacle_distance_m": 0.152,
+        "straight_line_distance_m": 2.51
+      },
+      "plot_filename": "trajectory_20260309_095330.png"
+    },
+    {
+      "run_id": "run_20260309_095436",
+      "metrics": {
+        "total_path_length_m": 2.598,
+        "min_obstacle_distance_m": 0.214,
+        "straight_line_distance_m": 2.419
+      },
+      "plot_filename": "trajectory_20260309_095436.png"
+    },
+    {
+      "run_id": "run_20260309_095542",
+      "metrics": {
+        "total_path_length_m": 2.918,
+        "min_obstacle_distance_m": 0.161,
+        "straight_line_distance_m": 2.747
+      },
+      "plot_filename": "trajectory_20260309_095542.png"
+    },
+    {
+      "run_id": "run_20260309_095653",
+      "metrics": {
+        "total_path_length_m": 2.978,
+        "min_obstacle_distance_m": 0.221,
+        "straight_line_distance_m": 2.744
+      },
+      "plot_filename": "trajectory_20260309_095653.png"
+    },
+    {
+      "run_id": "run_20260309_095757",
+      "metrics": {
+        "total_path_length_m": 2.761,
+        "min_obstacle_distance_m": 0.165,
+        "straight_line_distance_m": 2.614
+      },
+      "plot_filename": "trajectory_20260309_095757.png"
+    },
+    {
+      "run_id": "run_20260309_095906",
+      "metrics": {
+        "total_path_length_m": 3.228,
+        "min_obstacle_distance_m": 0.299,
+        "straight_line_distance_m": 2.925
+      },
+      "plot_filename": "trajectory_20260309_095906.png"
+    },
+    {
+      "run_id": "run_20260309_100027",
+      "metrics": {
+        "total_path_length_m": 2.716,
+        "min_obstacle_distance_m": 0.168,
+        "straight_line_distance_m": 2.574
+      },
+      "plot_filename": "trajectory_20260309_100027.png"
+    },
+    {
+      "run_id": "run_20260309_100136",
+      "metrics": {
+        "total_path_length_m": 2.867,
+        "min_obstacle_distance_m": 0.17,
+        "straight_line_distance_m": 2.729
+      },
+      "plot_filename": "trajectory_20260309_100136.png"
+    },
+    {
+      "run_id": "run_20260309_100242",
+      "metrics": {
+        "total_path_length_m": 2.987,
+        "min_obstacle_distance_m": 0.271,
+        "straight_line_distance_m": 2.76
+      },
+      "plot_filename": "trajectory_20260309_100242.png"
+    },
+    {
+      "run_id": "run_20260309_100351",
+      "metrics": {
+        "total_path_length_m": 2.584,
+        "min_obstacle_distance_m": 0.215,
+        "straight_line_distance_m": 2.406
+      },
+      "plot_filename": "trajectory_20260309_100351.png"
+    },
+    {
+      "run_id": "run_20260309_100501",
+      "metrics": {
+        "total_path_length_m": 3.047,
+        "min_obstacle_distance_m": 0.166,
+        "straight_line_distance_m": 2.888
+      },
+      "plot_filename": "trajectory_20260309_100501.png"
+    },
+    {
+      "run_id": "run_20260309_100607",
+      "metrics": {
+        "total_path_length_m": 2.599,
+        "min_obstacle_distance_m": 0.218,
+        "straight_line_distance_m": 2.397
+      },
+      "plot_filename": "trajectory_20260309_100607.png"
+    },
+    {
+      "run_id": "run_20260309_111145",
+      "metrics": {
+        "total_path_length_m": 3.057,
+        "min_obstacle_distance_m": 0.515,
+        "straight_line_distance_m": 2.451
+      },
+      "plot_filename": "trajectory_20260309_111145.png"
+    },
+    {
+      "run_id": "run_20260309_111250",
+      "metrics": {
+        "total_path_length_m": 3.502,
+        "min_obstacle_distance_m": 0.389,
+        "straight_line_distance_m": 2.812
+      },
+      "plot_filename": "trajectory_20260309_111250.png"
+    },
+    {
+      "run_id": "run_20260309_111354",
+      "metrics": {
+        "total_path_length_m": 3.356,
+        "min_obstacle_distance_m": 0.506,
+        "straight_line_distance_m": 2.735
+      },
+      "plot_filename": "trajectory_20260309_111354.png"
+    },
+    {
+      "run_id": "run_20260309_111456",
+      "metrics": {
+        "total_path_length_m": 6.607,
+        "min_obstacle_distance_m": 0.017,
+        "straight_line_distance_m": 3.58
+      },
+      "plot_filename": "trajectory_20260309_111456.png"
+    },
+    {
+      "run_id": "run_20260309_111633",
+      "metrics": {
+        "total_path_length_m": 3.241,
+        "min_obstacle_distance_m": 0.43,
+        "straight_line_distance_m": 2.605
+      },
+      "plot_filename": "trajectory_20260309_111633.png"
+    },
+    {
+      "run_id": "run_20260309_111741",
+      "metrics": {
+        "total_path_length_m": 3.615,
+        "min_obstacle_distance_m": 0.556,
+        "straight_line_distance_m": 2.952
+      },
+      "plot_filename": "trajectory_20260309_111741.png"
+    },
+    {
+      "run_id": "run_20260309_111844",
+      "metrics": {
+        "total_path_length_m": 3.011,
+        "min_obstacle_distance_m": 0.505,
+        "straight_line_distance_m": 2.443
+      },
+      "plot_filename": "trajectory_20260309_111844.png"
+    },
+    {
+      "run_id": "run_20260309_111948",
+      "metrics": {
+        "total_path_length_m": 3.74,
+        "min_obstacle_distance_m": 0.504,
+        "straight_line_distance_m": 3.06
+      },
+      "plot_filename": "trajectory_20260309_111948.png"
+    },
+    {
+      "run_id": "run_20260309_112053",
+      "metrics": {
+        "total_path_length_m": 3.307,
+        "min_obstacle_distance_m": 0.518,
+        "straight_line_distance_m": 2.676
+      },
+      "plot_filename": "trajectory_20260309_112053.png"
+    },
+    {
+      "run_id": "run_20260309_112156",
+      "metrics": {
+        "total_path_length_m": 3.283,
+        "min_obstacle_distance_m": 0.513,
+        "straight_line_distance_m": 2.872
+      },
+      "plot_filename": "trajectory_20260309_112156.png"
+    },
+    {
+      "run_id": "run_20260309_112301",
+      "metrics": {
+        "total_path_length_m": 3.153,
+        "min_obstacle_distance_m": 0.405,
+        "straight_line_distance_m": 2.748
+      },
+      "plot_filename": "trajectory_20260309_112301.png"
+    },
+    {
+      "run_id": "run_20260309_112406",
+      "metrics": {
+        "total_path_length_m": 3.329,
+        "min_obstacle_distance_m": 0.544,
+        "straight_line_distance_m": 2.693
+      },
+      "plot_filename": "trajectory_20260309_112406.png"
+    },
+    {
+      "run_id": "run_20260309_112509",
+      "metrics": {
+        "total_path_length_m": 3.717,
+        "min_obstacle_distance_m": 0.51,
+        "straight_line_distance_m": 2.997
+      },
+      "plot_filename": "trajectory_20260309_112509.png"
+    },
+    {
+      "run_id": "run_20260309_112610",
+      "metrics": {
+        "total_path_length_m": 3.792,
+        "min_obstacle_distance_m": 0.443,
+        "straight_line_distance_m": 3.103
+      },
+      "plot_filename": "trajectory_20260309_112610.png"
+    },
+    {
+      "run_id": "run_20260309_112718",
+      "metrics": {
+        "total_path_length_m": 3.601,
+        "min_obstacle_distance_m": 0.477,
+        "straight_line_distance_m": 2.949
+      },
+      "plot_filename": "trajectory_20260309_112718.png"
+    },
+    {
+      "run_id": "run_20260309_112818",
+      "metrics": {
+        "total_path_length_m": 2.988,
+        "min_obstacle_distance_m": 0.7,
+        "straight_line_distance_m": 2.495
+      },
+      "plot_filename": "trajectory_20260309_112818.png"
+    },
+    {
+      "run_id": "run_20260309_112920",
+      "metrics": {
+        "total_path_length_m": 3.573,
+        "min_obstacle_distance_m": 0.341,
+        "straight_line_distance_m": 2.898
+      },
+      "plot_filename": "trajectory_20260309_112920.png"
+    },
+    {
+      "run_id": "run_20260309_113027",
+      "metrics": {
+        "total_path_length_m": 6.667,
+        "min_obstacle_distance_m": 0.221,
+        "straight_line_distance_m": 1.987
+      },
+      "plot_filename": "trajectory_20260309_113027.png"
+    },
+    {
+      "run_id": "run_20260309_113235",
+      "metrics": {
+        "total_path_length_m": 3.551,
+        "min_obstacle_distance_m": 0.42,
+        "straight_line_distance_m": 2.9
+      },
+      "plot_filename": "trajectory_20260309_113235.png"
+    },
+    {
+      "run_id": "run_20260309_113335",
+      "metrics": {
+        "total_path_length_m": 3.214,
+        "min_obstacle_distance_m": 0.673,
+        "straight_line_distance_m": 2.582
+      },
+      "plot_filename": "trajectory_20260309_113335.png"
+    },
+    {
+      "run_id": "run_20260309_124154",
+      "metrics": {
+        "total_path_length_m": 2.409,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.311
+      },
+      "plot_filename": "trajectory_20260309_124154.png"
+    },
+    {
+      "run_id": "run_20260309_124256",
+      "metrics": {
+        "total_path_length_m": 2.675,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.56
+      },
+      "plot_filename": "trajectory_20260309_124256.png"
+    },
+    {
+      "run_id": "run_20260309_124356",
+      "metrics": {
+        "total_path_length_m": 2.454,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.363
+      },
+      "plot_filename": "trajectory_20260309_124356.png"
+    },
+    {
+      "run_id": "run_20260309_124454",
+      "metrics": {
+        "total_path_length_m": 3.068,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.949
+      },
+      "plot_filename": "trajectory_20260309_124454.png"
+    },
+    {
+      "run_id": "run_20260309_124554",
+      "metrics": {
+        "total_path_length_m": 2.943,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.834
+      },
+      "plot_filename": "trajectory_20260309_124554.png"
+    },
+    {
+      "run_id": "run_20260309_124651",
+      "metrics": {
+        "total_path_length_m": 2.353,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.26
+      },
+      "plot_filename": "trajectory_20260309_124651.png"
+    },
+    {
+      "run_id": "run_20260309_124751",
+      "metrics": {
+        "total_path_length_m": 2.442,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.328
+      },
+      "plot_filename": "trajectory_20260309_124751.png"
+    },
+    {
+      "run_id": "run_20260309_124845",
+      "metrics": {
+        "total_path_length_m": 2.491,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.398
+      },
+      "plot_filename": "trajectory_20260309_124845.png"
+    },
+    {
+      "run_id": "run_20260309_124944",
+      "metrics": {
+        "total_path_length_m": 2.835,
+        "min_obstacle_distance_m": 2.055,
+        "straight_line_distance_m": 2.734
+      },
+      "plot_filename": "trajectory_20260309_124944.png"
+    },
+    {
+      "run_id": "run_20260309_125047",
+      "metrics": {
+        "total_path_length_m": 2.92,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.81
+      },
+      "plot_filename": "trajectory_20260309_125047.png"
+    },
+    {
+      "run_id": "run_20260309_125142",
+      "metrics": {
+        "total_path_length_m": 2.252,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.135
+      },
+      "plot_filename": "trajectory_20260309_125142.png"
+    },
+    {
+      "run_id": "run_20260309_125242",
+      "metrics": {
+        "total_path_length_m": 2.44,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.333
+      },
+      "plot_filename": "trajectory_20260309_125242.png"
+    },
+    {
+      "run_id": "run_20260309_125339",
+      "metrics": {
+        "total_path_length_m": 2.648,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.544
+      },
+      "plot_filename": "trajectory_20260309_125339.png"
+    },
+    {
+      "run_id": "run_20260309_125439",
+      "metrics": {
+        "total_path_length_m": 2.851,
+        "min_obstacle_distance_m": 2.026,
+        "straight_line_distance_m": 2.755
+      },
+      "plot_filename": "trajectory_20260309_125439.png"
+    },
+    {
+      "run_id": "run_20260309_125541",
+      "metrics": {
+        "total_path_length_m": 2.944,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.843
+      },
+      "plot_filename": "trajectory_20260309_125541.png"
+    },
+    {
+      "run_id": "run_20260309_125639",
+      "metrics": {
+        "total_path_length_m": 2.872,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.761
+      },
+      "plot_filename": "trajectory_20260309_125639.png"
+    },
+    {
+      "run_id": "run_20260309_125735",
+      "metrics": {
+        "total_path_length_m": 2.48,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.368
+      },
+      "plot_filename": "trajectory_20260309_125735.png"
+    },
+    {
+      "run_id": "run_20260309_125837",
+      "metrics": {
+        "total_path_length_m": 3.038,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.942
+      },
+      "plot_filename": "trajectory_20260309_125837.png"
+    },
+    {
+      "run_id": "run_20260309_125939",
+      "metrics": {
+        "total_path_length_m": 3.014,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.906
+      },
+      "plot_filename": "trajectory_20260309_125939.png"
+    },
+    {
+      "run_id": "run_20260309_130039",
+      "metrics": {
+        "total_path_length_m": 2.717,
+        "min_obstacle_distance_m": 2.058,
+        "straight_line_distance_m": 2.61
+      },
+      "plot_filename": "trajectory_20260309_130039.png"
+    },
+    {
+      "run_id": "run_20260405_211116",
+      "metrics": {
+        "total_path_length_m": 1.883,
+        "min_obstacle_distance_m": 1.644,
+        "straight_line_distance_m": 1.521
+      },
+      "plot_filename": "trajectory_20260405_211116.png"
+    },
+    {
+      "run_id": "run_20260405_211249",
+      "metrics": {
+        "total_path_length_m": 4.44,
+        "min_obstacle_distance_m": 0.638,
+        "straight_line_distance_m": 3.437
+      },
+      "plot_filename": "trajectory_20260405_211249.png"
+    },
+    {
+      "run_id": "run_20260405_211442",
+      "metrics": {
+        "total_path_length_m": 1.965,
+        "min_obstacle_distance_m": 0.652,
+        "straight_line_distance_m": 1.857
+      },
+      "plot_filename": "trajectory_20260405_211442.png"
+    }
+  ]
+}

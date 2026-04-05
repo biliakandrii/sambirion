@@ -152,12 +152,6 @@ class BaseStateEstimator(Node, ABC):
         self.declare_parameter('angular_velocity_threshold', 0.3)  # rad/s 
         self.declare_parameter('pause_predictions_on_rotation', True)  # Enable/disable feature
         self.declare_parameter('min_linear_velocity', 0.0)  # m/s - only check rotation if moving
-        
-        # Kalman Filter parameters (can be overridden by subclasses)
-        self.declare_parameter('process_noise_pos', 0.1)
-        self.declare_parameter('process_noise_vel', 0.5)
-        self.declare_parameter('measurement_noise_pos', 0.05)
-        self.declare_parameter('measurement_noise_vel', 0.1)
     
     def _load_parameters(self):
         """Load parameters from ROS2 parameter server"""

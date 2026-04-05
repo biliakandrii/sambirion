@@ -14,6 +14,11 @@ class KFStateEstimator(BaseStateEstimator):
     def __init__(self):
         super().__init__('kf_state_estimator')
         
+        # Kalman Filter parameters (can be overridden by subclasses)
+        self.declare_parameter('process_noise_pos', 0.1)
+        self.declare_parameter('process_noise_vel', 0.5)
+        self.declare_parameter('measurement_noise_pos', 0.05)
+        self.declare_parameter('measurement_noise_vel', 0.1)
         # Load KF-specific parameters
         self.process_noise_pos = self.get_parameter('process_noise_pos').value
         self.process_noise_vel = self.get_parameter('process_noise_vel').value

@@ -1,0 +1,2522 @@
+[
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 35.95
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 39.17
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.91
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.99
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 31.63
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 35.11
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 66.2
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 32.23
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": null
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.94
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 50.13
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.24
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.04
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.26
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 27.92
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.24
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 31.76
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.09
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.02
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.04
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.77
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.25
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.67
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 29.76
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 42.29
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 33.65
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.19
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.02
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 32.3
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 34.26
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.88
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 29.12
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 29.47
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 30.33
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": null
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 29.01
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.1
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.17
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 27.99
+  },
+  {
+    "test_name": "test1_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 27.97
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 36.36
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 38.42
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 36.33
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 31.04
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.2
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 37.49
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 35.82
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 37.02
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": null
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 36.09
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.86
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.07
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.84
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.98
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 27.96
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 39.14
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.06
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 27.74
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 32.6
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 50.2
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.17
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 36.38
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 29.93
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 35.84
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.5
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.69
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.15
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 32.27
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 35.93
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": null
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 29.94
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.63
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.88
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 46.71
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.31
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.6
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 29.66
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 30.11
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.45
+  },
+  {
+    "test_name": "test2_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 29.41
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 32.04
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.19
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.12
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 33.95
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.7
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 39.08
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 31.94
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 31.81
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.81
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 32.16
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.75
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 53.88
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 46.2
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.7
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.49
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.27
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 52.39
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 35.8
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.8
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.4
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.56
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 32.27
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.64
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.18
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.7
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 29.97
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.2
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.47
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.03
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 29.77
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.28
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 37.84
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 29.26
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.12
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.76
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 27.97
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.34
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 27.88
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 27.62
+  },
+  {
+    "test_name": "test3_linear",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 29.4
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 38.06
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 38.54
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 38.64
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 35.11
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 35.96
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 38.03
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 37.98
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 36.74
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 34.55
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 34.37
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.71
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.87
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.01
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 30.32
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 51.81
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 48.74
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 27.56
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.2
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 27.94
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.78
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 33.9
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 33.71
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 33.73
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 36.95
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 37.12
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": null
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 33.8
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 32.11
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.78
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 35.7
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.23
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 30.52
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 33.12
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 27.42
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.66
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 31.53
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 30.42
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": null
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 27.99
+  },
+  {
+    "test_name": "test1_circular_slow",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.65
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.82
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 31.61
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": null
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 31.22
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 31.36
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": null
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": null
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 37.79
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 36.46
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": null
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.42
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 37.13
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": null
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 30.1
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.12
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.13
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.06
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 26.93
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.77
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.22
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 35.63
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.69
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 27.97
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.13
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.6
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.33
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 35.9
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 48.18
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 29.44
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 29.98
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 45.17
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 36.31
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.41
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 38.18
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 36.82
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 35.14
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 38.48
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.18
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.5
+  },
+  {
+    "test_name": "test2_circular_medium",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 35.85
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 42.55
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 43.76
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 42.3
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 42.12
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 34.76
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 42.79
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 42.72
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 42.69
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 43.29
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 43.54
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 54.33
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.74
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 54.23
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 52.32
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 30.12
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 51.2
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 52.9
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 90.84
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 54.39
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 52.03
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 43.26
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 41.57
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": null
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": null
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": null
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 42.84
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 42.49
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 42.41
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": null
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 43.48
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 30.02
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.76
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.24
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.71
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.78
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 30.29
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 29.31
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.41
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.7
+  },
+  {
+    "test_name": "test3_circular_fast",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 29.31
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.45
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 31.92
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.03
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.12
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 32.51
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.31
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.01
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.1
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 36.53
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.31
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 30.27
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.19
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.91
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.65
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 30.29
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 32.75
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 31.49
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 27.78
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.64
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.67
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.86
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 38.72
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 29.44
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.0
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 29.51
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 44.8
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 28.75
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.41
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.35
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 29.38
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 44.45
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 37.83
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 36.52
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 35.9
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 34.81
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 34.21
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 35.83
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 38.87
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 59.76
+  },
+  {
+    "test_name": "test_linear_head_on",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 35.38
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 31.66
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 32.6
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 32.41
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 37.09
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 34.13
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 34.51
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 31.71
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 32.69
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 41.12
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 33.29
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 31.87
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 33.86
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 30.81
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 31.24
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 33.56
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 34.91
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 30.58
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 31.67
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 32.35
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 31.01
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.25
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.58
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.44
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.76
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 32.96
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 32.61
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.82
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 38.95
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 32.23
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.57
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 31.66
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 31.1
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 30.68
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 32.77
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 32.29
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 61.29
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 33.01
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 31.95
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 31.98
+  },
+  {
+    "test_name": "test_linear_overtake",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 31.61
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 29.39
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 29.28
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 59.47
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 59.59
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 30.85
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 59.49
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 55.19
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 29.86
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 29.69
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "default",
+    "estimator_type": null,
+    "config_name": "default",
+    "time": 61.5
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.25
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.47
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.0
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.5
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.18
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 29.24
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.33
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.47
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 28.34
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "kf",
+    "config_name": "prediction_kf",
+    "time": 27.62
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 28.32
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 28.8
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 29.2
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 28.69
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 28.33
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 30.06
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 31.4
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 28.65
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 28.53
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ekf",
+    "config_name": "prediction_ekf",
+    "time": 29.14
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.08
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.23
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 26.93
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.4
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.89
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.55
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 27.84
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 27.54
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.08
+  },
+  {
+    "test_name": "test_nonlinear_arch",
+    "nav2_config": "prediction",
+    "estimator_type": "ukf",
+    "config_name": "prediction_ukf",
+    "time": 28.89
+  }
+]

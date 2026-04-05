@@ -26,6 +26,8 @@ class MovingObstacleNode(Node):
         self.declare_parameter('color_g', 0.0)
         self.declare_parameter('color_b', 0.0)
         self.declare_parameter('visualize_path', True)
+        self.declare_parameter('linear_axis', 'x')  # 'x' or 'y'
+        self.declare_parameter('linear_direction', 'increment')  # 'increment' or 'decrement'
         
         self.model_name = self.get_parameter('model_name').value
         self.trajectory_type = self.get_parameter('trajectory').value
@@ -39,6 +41,8 @@ class MovingObstacleNode(Node):
         self.color_g = self.get_parameter('color_g').value
         self.color_b = self.get_parameter('color_b').value
         self.visualize_path = self.get_parameter('visualize_path').value
+        self.linear_axis = self.get_parameter('linear_axis').value
+        self.linear_direction = self.get_parameter('linear_direction').value
         
         # Generate unique marker ID based on model name hash
         self.marker_id = hash(self.model_name) % 10000
@@ -55,6 +59,9 @@ class MovingObstacleNode(Node):
         self.get_logger().info(f"  Speed: {self.speed} rad/s")
         self.get_logger().info(f"  Radius: {self.radius} m")
         self.get_logger().info(f"  Start Position: ({self.start_x}, {self.start_y})")
+        if self.trajectory_type == 'linear':
+            self.get_logger().info(f"  Linear Axis: {self.linear_axis}")
+            self.get_logger().info(f"  Linear Direction: {self.linear_direction}")
         self.get_logger().info(f"  Size: radius={self.obstacle_radius}m, height={self.obstacle_height}m")
         self.get_logger().info(f"  Color: RGB({self.color_r}, {self.color_g}, {self.color_b})")
         self.get_logger().info(f"  Marker ID: {self.marker_id}")
@@ -241,12 +248,26 @@ class MovingObstacleNode(Node):
     
     def linear_trajectory(self, t):
         """Generate back-and-forth linear trajectory"""
-        x = self.start_x + self.radius * math.sin(self.speed * t)
-        y = self.start_y
-        yaw = 0
+        # Determine direction multiplier
+        direction = 1.0 if self.linear_direction == 'increment' else -1.0
         
-        vx = self.radius * self.speed * math.cos(self.speed * t)
-        vy = 0.0
+        if self.linear_axis == 'x':
+            # Movement along X axis
+            x = self.start_x + direction * self.radius * math.sin(self.speed * t)
+            y = self.start_y
+            yaw = 0 if direction > 0 else math.pi
+            
+            vx = direction * self.radius * self.speed * math.cos(self.speed * t)
+            vy = 0.0
+        else:  # linear_axis == 'y'
+            # Movement along Y axis
+            x = self.start_x
+            y = self.start_y + direction * self.radius * math.sin(self.speed * t)
+            yaw = math.pi/2 if direction > 0 else -math.pi/2
+            
+            vx = 0.0
+            vy = direction * self.radius * self.speed * math.cos(self.speed * t)
+        
         vyaw = 0.0
         
         return x, y, yaw, vx, vy, vyaw

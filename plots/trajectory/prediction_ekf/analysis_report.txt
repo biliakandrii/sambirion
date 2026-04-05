@@ -1,0 +1,1988 @@
+================================================================================
+TRAJECTORY ANALYSIS REPORT
+================================================================================
+
+Report Generated: 2026-03-09 22:25:46
+Data Source: /root/sambirion/plots/trajectory/prediction_ekf/trajectory_data.json
+Total Runs Analyzed: 322
+
+--------------------------------------------------------------------------------
+PATH LENGTH STATISTICS
+--------------------------------------------------------------------------------
+Number of runs: 322
+Mean: 3.316 meters
+Median: 3.048 meters
+Std Dev: 0.884 meters
+Min: 2.256 meters
+Max: 9.665 meters
+Range: 7.409 meters
+
+--------------------------------------------------------------------------------
+MINIMUM OBSTACLE DISTANCE STATISTICS
+--------------------------------------------------------------------------------
+Number of runs: 322
+Mean: 0.887 meters
+Median: 0.659 meters
+Std Dev: 0.611 meters
+Min: 0.009 meters
+Max: 2.058 meters
+Range: 2.049 meters
+
+Safety Analysis:
+  Danger zone (<0.5m): 105 runs (32.6%)
+  Warning zone (0.5-1.0m): 98 runs (30.4%)
+  Safe zone (>1.0m): 119 runs (37.0%)
+
+--------------------------------------------------------------------------------
+PATH DEVIATION FROM STRAIGHT LINE STATISTICS
+--------------------------------------------------------------------------------
+Number of runs: 322
+Mean deviation: 20.1%
+Median deviation: 7.4%
+Std Dev: 113.3%
+Min deviation: 2.6%
+Max deviation: 2033.6%
+Range: 2031.0%
+
+Efficiency Analysis:
+  Efficient (<10% deviation): 172 runs (53.4%)
+  Moderate (10-30% deviation): 116 runs (36.0%)
+  Inefficient (>30% deviation): 34 runs (10.6%)
+
+--------------------------------------------------------------------------------
+INDIVIDUAL RUN DETAILS
+--------------------------------------------------------------------------------
+
+Run 1: run_20260308_104524
+  Path Length: 2.799 m
+  Straight Line: 2.617 m
+  Min Obstacle Distance: 0.139 m
+  Deviation: 7.0%
+
+Run 2: run_20260308_104627
+  Path Length: 3.619 m
+  Straight Line: 3.381 m
+  Min Obstacle Distance: 0.17 m
+  Deviation: 7.0%
+
+Run 3: run_20260308_104731
+  Path Length: 3.54 m
+  Straight Line: 3.281 m
+  Min Obstacle Distance: 0.199 m
+  Deviation: 7.9%
+
+Run 4: run_20260308_104835
+  Path Length: 2.909 m
+  Straight Line: 2.765 m
+  Min Obstacle Distance: 0.207 m
+  Deviation: 5.2%
+
+Run 5: run_20260308_104940
+  Path Length: 3.425 m
+  Straight Line: 2.756 m
+  Min Obstacle Distance: 0.009 m
+  Deviation: 24.3%
+
+Run 6: run_20260308_105042
+  Path Length: 3.36 m
+  Straight Line: 3.179 m
+  Min Obstacle Distance: 0.19 m
+  Deviation: 5.7%
+
+Run 7: run_20260308_105148
+  Path Length: 3.227 m
+  Straight Line: 3.035 m
+  Min Obstacle Distance: 0.231 m
+  Deviation: 6.3%
+
+Run 8: run_20260308_105253
+  Path Length: 3.442 m
+  Straight Line: 3.226 m
+  Min Obstacle Distance: 0.214 m
+  Deviation: 6.7%
+
+Run 9: run_20260308_105354
+  Path Length: 3.047 m
+  Straight Line: 2.838 m
+  Min Obstacle Distance: 0.135 m
+  Deviation: 7.4%
+
+Run 10: run_20260308_105500
+  Path Length: 3.248 m
+  Straight Line: 3.016 m
+  Min Obstacle Distance: 0.164 m
+  Deviation: 7.7%
+
+Run 11: run_20260308_105605
+  Path Length: 2.997 m
+  Straight Line: 2.739 m
+  Min Obstacle Distance: 0.11 m
+  Deviation: 9.4%
+
+Run 12: run_20260308_105709
+  Path Length: 3.071 m
+  Straight Line: 2.908 m
+  Min Obstacle Distance: 0.205 m
+  Deviation: 5.6%
+
+Run 13: run_20260308_105813
+  Path Length: 3.124 m
+  Straight Line: 2.921 m
+  Min Obstacle Distance: 0.217 m
+  Deviation: 6.9%
+
+Run 14: run_20260308_105917
+  Path Length: 3.447 m
+  Straight Line: 3.204 m
+  Min Obstacle Distance: 0.107 m
+  Deviation: 7.6%
+
+Run 15: run_20260308_121133
+  Path Length: 2.993 m
+  Straight Line: 2.584 m
+  Min Obstacle Distance: 0.524 m
+  Deviation: 15.8%
+
+Run 16: run_20260308_121237
+  Path Length: 3.084 m
+  Straight Line: 2.658 m
+  Min Obstacle Distance: 0.498 m
+  Deviation: 16.0%
+
+Run 17: run_20260308_121340
+  Path Length: 3.368 m
+  Straight Line: 2.783 m
+  Min Obstacle Distance: 0.473 m
+  Deviation: 21.0%
+
+Run 18: run_20260308_121442
+  Path Length: 3.494 m
+  Straight Line: 2.975 m
+  Min Obstacle Distance: 0.469 m
+  Deviation: 17.4%
+
+Run 19: run_20260308_121545
+  Path Length: 3.715 m
+  Straight Line: 3.168 m
+  Min Obstacle Distance: 0.447 m
+  Deviation: 17.3%
+
+Run 20: run_20260308_121648
+  Path Length: 3.511 m
+  Straight Line: 3.008 m
+  Min Obstacle Distance: 0.479 m
+  Deviation: 16.7%
+
+Run 21: run_20260308_121749
+  Path Length: 3.124 m
+  Straight Line: 2.612 m
+  Min Obstacle Distance: 0.517 m
+  Deviation: 19.6%
+
+Run 22: run_20260308_121850
+  Path Length: 3.183 m
+  Straight Line: 2.697 m
+  Min Obstacle Distance: 0.525 m
+  Deviation: 18.0%
+
+Run 23: run_20260308_121955
+  Path Length: 3.032 m
+  Straight Line: 2.593 m
+  Min Obstacle Distance: 0.538 m
+  Deviation: 16.9%
+
+Run 24: run_20260308_122057
+  Path Length: 3.187 m
+  Straight Line: 2.743 m
+  Min Obstacle Distance: 0.538 m
+  Deviation: 16.2%
+
+Run 25: run_20260308_122201
+  Path Length: 3.219 m
+  Straight Line: 2.744 m
+  Min Obstacle Distance: 0.512 m
+  Deviation: 17.3%
+
+Run 26: run_20260308_122303
+  Path Length: 3.246 m
+  Straight Line: 2.796 m
+  Min Obstacle Distance: 0.532 m
+  Deviation: 16.1%
+
+Run 27: run_20260308_122409
+  Path Length: 3.192 m
+  Straight Line: 2.726 m
+  Min Obstacle Distance: 0.507 m
+  Deviation: 17.1%
+
+Run 28: run_20260308_122510
+  Path Length: 3.131 m
+  Straight Line: 2.697 m
+  Min Obstacle Distance: 0.448 m
+  Deviation: 16.1%
+
+Run 29: run_20260308_122619
+  Path Length: 3.236 m
+  Straight Line: 2.736 m
+  Min Obstacle Distance: 0.545 m
+  Deviation: 18.3%
+
+Run 30: run_20260308_122721
+  Path Length: 2.989 m
+  Straight Line: 2.543 m
+  Min Obstacle Distance: 0.526 m
+  Deviation: 17.5%
+
+Run 31: run_20260308_122820
+  Path Length: 3.039 m
+  Straight Line: 2.542 m
+  Min Obstacle Distance: 0.553 m
+  Deviation: 19.6%
+
+Run 32: run_20260308_122923
+  Path Length: 3.492 m
+  Straight Line: 2.953 m
+  Min Obstacle Distance: 0.511 m
+  Deviation: 18.3%
+
+Run 33: run_20260308_123025
+  Path Length: 3.067 m
+  Straight Line: 2.651 m
+  Min Obstacle Distance: 0.541 m
+  Deviation: 15.7%
+
+Run 34: run_20260308_123126
+  Path Length: 3.632 m
+  Straight Line: 3.156 m
+  Min Obstacle Distance: 0.504 m
+  Deviation: 15.1%
+
+Run 35: run_20260308_134140
+  Path Length: 2.843 m
+  Straight Line: 2.755 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 3.2%
+
+Run 36: run_20260308_134240
+  Path Length: 2.706 m
+  Straight Line: 2.631 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 2.9%
+
+Run 37: run_20260308_134340
+  Path Length: 2.877 m
+  Straight Line: 2.781 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 3.5%
+
+Run 38: run_20260308_134442
+  Path Length: 3.107 m
+  Straight Line: 3.001 m
+  Min Obstacle Distance: 2.057 m
+  Deviation: 3.5%
+
+Run 39: run_20260308_134540
+  Path Length: 3.096 m
+  Straight Line: 3.019 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 2.6%
+
+Run 40: run_20260308_134642
+  Path Length: 2.947 m
+  Straight Line: 2.847 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 3.5%
+
+Run 41: run_20260308_134740
+  Path Length: 2.767 m
+  Straight Line: 2.677 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 3.4%
+
+Run 42: run_20260308_134839
+  Path Length: 3.093 m
+  Straight Line: 2.986 m
+  Min Obstacle Distance: 2.055 m
+  Deviation: 3.6%
+
+Run 43: run_20260308_135146
+  Path Length: 2.552 m
+  Straight Line: 2.486 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 2.7%
+
+Run 44: run_20260308_135244
+  Path Length: 2.641 m
+  Straight Line: 2.564 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 3.0%
+
+Run 45: run_20260308_135340
+  Path Length: 2.755 m
+  Straight Line: 2.681 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 2.8%
+
+Run 46: run_20260308_135439
+  Path Length: 2.778 m
+  Straight Line: 2.682 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 3.6%
+
+Run 47: run_20260308_135540
+  Path Length: 2.567 m
+  Straight Line: 2.483 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 3.4%
+
+Run 48: run_20260308_135640
+  Path Length: 2.922 m
+  Straight Line: 2.844 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 2.7%
+
+Run 49: run_20260308_135738
+  Path Length: 2.998 m
+  Straight Line: 2.916 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 2.8%
+
+Run 50: run_20260308_135840
+  Path Length: 2.876 m
+  Straight Line: 2.788 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 3.2%
+
+Run 51: run_20260308_135941
+  Path Length: 3.241 m
+  Straight Line: 3.051 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 6.2%
+
+Run 52: run_20260308_140042
+  Path Length: 2.624 m
+  Straight Line: 2.522 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.0%
+
+Run 53: run_20260308_140142
+  Path Length: 2.393 m
+  Straight Line: 2.307 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 3.7%
+
+Run 54: run_20260308_155121
+  Path Length: 2.693 m
+  Straight Line: 2.54 m
+  Min Obstacle Distance: 0.342 m
+  Deviation: 6.0%
+
+Run 55: run_20260308_162022
+  Path Length: 3.321 m
+  Straight Line: 2.857 m
+  Min Obstacle Distance: 0.502 m
+  Deviation: 16.2%
+
+Run 56: run_20260308_162135
+  Path Length: 2.771 m
+  Straight Line: 2.681 m
+  Min Obstacle Distance: 0.532 m
+  Deviation: 3.4%
+
+Run 57: run_20260308_162241
+  Path Length: 3.053 m
+  Straight Line: 2.948 m
+  Min Obstacle Distance: 0.527 m
+  Deviation: 3.6%
+
+Run 58: run_20260308_162352
+  Path Length: 2.716 m
+  Straight Line: 2.619 m
+  Min Obstacle Distance: 0.642 m
+  Deviation: 3.7%
+
+Run 59: run_20260308_162501
+  Path Length: 3.807 m
+  Straight Line: 3.125 m
+  Min Obstacle Distance: 0.504 m
+  Deviation: 21.8%
+
+Run 60: run_20260308_162619
+  Path Length: 3.467 m
+  Straight Line: 2.946 m
+  Min Obstacle Distance: 0.515 m
+  Deviation: 17.7%
+
+Run 61: run_20260308_162733
+  Path Length: 2.687 m
+  Straight Line: 2.591 m
+  Min Obstacle Distance: 0.565 m
+  Deviation: 3.7%
+
+Run 62: run_20260308_162840
+  Path Length: 2.908 m
+  Straight Line: 2.812 m
+  Min Obstacle Distance: 0.496 m
+  Deviation: 3.4%
+
+Run 63: run_20260308_162947
+  Path Length: 3.559 m
+  Straight Line: 2.951 m
+  Min Obstacle Distance: 0.462 m
+  Deviation: 20.6%
+
+Run 64: run_20260308_163102
+  Path Length: 3.783 m
+  Straight Line: 3.078 m
+  Min Obstacle Distance: 0.484 m
+  Deviation: 22.9%
+
+Run 65: run_20260308_170816
+  Path Length: 3.0 m
+  Straight Line: 2.901 m
+  Min Obstacle Distance: 0.56 m
+  Deviation: 3.4%
+
+Run 66: run_20260308_170920
+  Path Length: 3.885 m
+  Straight Line: 3.052 m
+  Min Obstacle Distance: 0.59 m
+  Deviation: 27.3%
+
+Run 67: run_20260308_171034
+  Path Length: 2.971 m
+  Straight Line: 2.876 m
+  Min Obstacle Distance: 0.546 m
+  Deviation: 3.3%
+
+Run 68: run_20260308_171140
+  Path Length: 3.804 m
+  Straight Line: 3.014 m
+  Min Obstacle Distance: 0.555 m
+  Deviation: 26.2%
+
+Run 69: run_20260308_171250
+  Path Length: 2.864 m
+  Straight Line: 2.767 m
+  Min Obstacle Distance: 0.649 m
+  Deviation: 3.5%
+
+Run 70: run_20260308_171356
+  Path Length: 2.629 m
+  Straight Line: 2.535 m
+  Min Obstacle Distance: 0.739 m
+  Deviation: 3.7%
+
+Run 71: run_20260308_171506
+  Path Length: 2.799 m
+  Straight Line: 2.698 m
+  Min Obstacle Distance: 0.693 m
+  Deviation: 3.7%
+
+Run 72: run_20260308_171613
+  Path Length: 2.739 m
+  Straight Line: 2.56 m
+  Min Obstacle Distance: 0.441 m
+  Deviation: 7.0%
+
+Run 73: run_20260308_171718
+  Path Length: 3.265 m
+  Straight Line: 2.82 m
+  Min Obstacle Distance: 0.544 m
+  Deviation: 15.8%
+
+Run 74: run_20260308_175512
+  Path Length: 2.971 m
+  Straight Line: 2.872 m
+  Min Obstacle Distance: 0.439 m
+  Deviation: 3.4%
+
+Run 75: run_20260308_175619
+  Path Length: 2.9 m
+  Straight Line: 2.693 m
+  Min Obstacle Distance: 0.35 m
+  Deviation: 7.7%
+
+Run 76: run_20260308_175723
+  Path Length: 2.466 m
+  Straight Line: 2.366 m
+  Min Obstacle Distance: 1.046 m
+  Deviation: 4.2%
+
+Run 77: run_20260308_175833
+  Path Length: 2.448 m
+  Straight Line: 2.328 m
+  Min Obstacle Distance: 0.872 m
+  Deviation: 5.2%
+
+Run 78: run_20260308_175939
+  Path Length: 2.656 m
+  Straight Line: 2.498 m
+  Min Obstacle Distance: 0.641 m
+  Deviation: 6.3%
+
+Run 79: run_20260308_180045
+  Path Length: 2.648 m
+  Straight Line: 2.486 m
+  Min Obstacle Distance: 0.632 m
+  Deviation: 6.5%
+
+Run 80: run_20260308_180153
+  Path Length: 2.42 m
+  Straight Line: 2.295 m
+  Min Obstacle Distance: 1.043 m
+  Deviation: 5.4%
+
+Run 81: run_20260308_180257
+  Path Length: 2.877 m
+  Straight Line: 2.734 m
+  Min Obstacle Distance: 0.5 m
+  Deviation: 5.2%
+
+Run 82: run_20260308_180404
+  Path Length: 2.965 m
+  Straight Line: 2.844 m
+  Min Obstacle Distance: 0.57 m
+  Deviation: 4.3%
+
+Run 83: run_20260308_180509
+  Path Length: 2.6 m
+  Straight Line: 2.449 m
+  Min Obstacle Distance: 0.89 m
+  Deviation: 6.2%
+
+Run 84: run_20260308_184000
+  Path Length: 3.562 m
+  Straight Line: 3.132 m
+  Min Obstacle Distance: 1.113 m
+  Deviation: 13.7%
+
+Run 85: run_20260308_184105
+  Path Length: 3.749 m
+  Straight Line: 3.19 m
+  Min Obstacle Distance: 1.103 m
+  Deviation: 17.5%
+
+Run 86: run_20260308_184211
+  Path Length: 3.742 m
+  Straight Line: 3.203 m
+  Min Obstacle Distance: 1.122 m
+  Deviation: 16.8%
+
+Run 87: run_20260308_184318
+  Path Length: 3.866 m
+  Straight Line: 3.27 m
+  Min Obstacle Distance: 0.899 m
+  Deviation: 18.2%
+
+Run 88: run_20260308_184434
+  Path Length: 3.32 m
+  Straight Line: 2.941 m
+  Min Obstacle Distance: 0.922 m
+  Deviation: 12.9%
+
+Run 89: run_20260308_184755
+  Path Length: 3.747 m
+  Straight Line: 3.193 m
+  Min Obstacle Distance: 1.105 m
+  Deviation: 17.4%
+
+Run 90: run_20260308_184857
+  Path Length: 2.446 m
+  Straight Line: 2.338 m
+  Min Obstacle Distance: 0.235 m
+  Deviation: 4.6%
+
+Run 91: run_20260308_185005
+  Path Length: 2.49 m
+  Straight Line: 2.385 m
+  Min Obstacle Distance: 0.213 m
+  Deviation: 4.4%
+
+Run 92: run_20260308_185109
+  Path Length: 3.522 m
+  Straight Line: 3.061 m
+  Min Obstacle Distance: 0.941 m
+  Deviation: 15.1%
+
+Run 93: run_20260308_193003
+  Path Length: 3.913 m
+  Straight Line: 3.278 m
+  Min Obstacle Distance: 0.877 m
+  Deviation: 19.4%
+
+Run 94: run_20260308_193110
+  Path Length: 3.341 m
+  Straight Line: 2.98 m
+  Min Obstacle Distance: 0.885 m
+  Deviation: 12.1%
+
+Run 95: run_20260308_193211
+  Path Length: 2.535 m
+  Straight Line: 2.387 m
+  Min Obstacle Distance: 0.92 m
+  Deviation: 6.2%
+
+Run 96: run_20260308_193309
+  Path Length: 2.737 m
+  Straight Line: 2.446 m
+  Min Obstacle Distance: 0.884 m
+  Deviation: 11.9%
+
+Run 97: run_20260308_193411
+  Path Length: 2.536 m
+  Straight Line: 2.337 m
+  Min Obstacle Distance: 1.055 m
+  Deviation: 8.5%
+
+Run 98: run_20260308_193515
+  Path Length: 2.698 m
+  Straight Line: 2.454 m
+  Min Obstacle Distance: 0.953 m
+  Deviation: 9.9%
+
+Run 99: run_20260308_193620
+  Path Length: 3.528 m
+  Straight Line: 3.09 m
+  Min Obstacle Distance: 1.126 m
+  Deviation: 14.2%
+
+Run 100: run_20260308_193726
+  Path Length: 4.696 m
+  Straight Line: 2.926 m
+  Min Obstacle Distance: 0.219 m
+  Deviation: 60.5%
+
+Run 101: run_20260308_193845
+  Path Length: 3.17 m
+  Straight Line: 2.871 m
+  Min Obstacle Distance: 0.819 m
+  Deviation: 10.4%
+
+Run 102: run_20260308_193945
+  Path Length: 2.864 m
+  Straight Line: 2.728 m
+  Min Obstacle Distance: 1.127 m
+  Deviation: 5.0%
+
+Run 103: run_20260308_201809
+  Path Length: 5.37 m
+  Straight Line: 3.756 m
+  Min Obstacle Distance: 1.686 m
+  Deviation: 43.0%
+
+Run 104: run_20260308_201922
+  Path Length: 4.795 m
+  Straight Line: 3.618 m
+  Min Obstacle Distance: 1.502 m
+  Deviation: 32.5%
+
+Run 105: run_20260308_202034
+  Path Length: 5.671 m
+  Straight Line: 3.706 m
+  Min Obstacle Distance: 1.53 m
+  Deviation: 53.0%
+
+Run 106: run_20260308_202241
+  Path Length: 5.877 m
+  Straight Line: 3.702 m
+  Min Obstacle Distance: 1.07 m
+  Deviation: 58.8%
+
+Run 107: run_20260308_202449
+  Path Length: 6.025 m
+  Straight Line: 3.805 m
+  Min Obstacle Distance: 1.21 m
+  Deviation: 58.3%
+
+Run 108: run_20260308_202659
+  Path Length: 5.087 m
+  Straight Line: 3.771 m
+  Min Obstacle Distance: 1.568 m
+  Deviation: 34.9%
+
+Run 109: run_20260308_202812
+  Path Length: 5.257 m
+  Straight Line: 3.756 m
+  Min Obstacle Distance: 1.763 m
+  Deviation: 40.0%
+
+Run 110: run_20260308_202926
+  Path Length: 5.272 m
+  Straight Line: 3.679 m
+  Min Obstacle Distance: 1.416 m
+  Deviation: 43.3%
+
+Run 111: run_20260308_203043
+  Path Length: 5.701 m
+  Straight Line: 3.691 m
+  Min Obstacle Distance: 1.464 m
+  Deviation: 54.5%
+
+Run 112: run_20260308_203251
+  Path Length: 5.376 m
+  Straight Line: 3.767 m
+  Min Obstacle Distance: 1.568 m
+  Deviation: 42.7%
+
+Run 113: run_20260308_210437
+  Path Length: 2.684 m
+  Straight Line: 2.5 m
+  Min Obstacle Distance: 0.152 m
+  Deviation: 7.4%
+
+Run 114: run_20260308_210537
+  Path Length: 3.663 m
+  Straight Line: 2.914 m
+  Min Obstacle Distance: 0.202 m
+  Deviation: 25.7%
+
+Run 115: run_20260308_210648
+  Path Length: 2.57 m
+  Straight Line: 2.406 m
+  Min Obstacle Distance: 0.23 m
+  Deviation: 6.8%
+
+Run 116: run_20260308_210750
+  Path Length: 2.806 m
+  Straight Line: 2.628 m
+  Min Obstacle Distance: 0.23 m
+  Deviation: 6.8%
+
+Run 117: run_20260308_210852
+  Path Length: 2.689 m
+  Straight Line: 2.52 m
+  Min Obstacle Distance: 0.248 m
+  Deviation: 6.7%
+
+Run 118: run_20260308_210950
+  Path Length: 3.926 m
+  Straight Line: 2.929 m
+  Min Obstacle Distance: 0.229 m
+  Deviation: 34.0%
+
+Run 119: run_20260308_211108
+  Path Length: 2.53 m
+  Straight Line: 2.359 m
+  Min Obstacle Distance: 0.202 m
+  Deviation: 7.2%
+
+Run 120: run_20260308_211209
+  Path Length: 2.978 m
+  Straight Line: 2.782 m
+  Min Obstacle Distance: 0.384 m
+  Deviation: 7.0%
+
+Run 121: run_20260308_211314
+  Path Length: 3.064 m
+  Straight Line: 2.863 m
+  Min Obstacle Distance: 0.187 m
+  Deviation: 7.0%
+
+Run 122: run_20260308_211415
+  Path Length: 3.18 m
+  Straight Line: 2.967 m
+  Min Obstacle Distance: 0.256 m
+  Deviation: 7.2%
+
+Run 123: run_20260308_214812
+  Path Length: 2.879 m
+  Straight Line: 2.557 m
+  Min Obstacle Distance: 0.444 m
+  Deviation: 12.6%
+
+Run 124: run_20260308_214912
+  Path Length: 3.25 m
+  Straight Line: 2.874 m
+  Min Obstacle Distance: 0.467 m
+  Deviation: 13.1%
+
+Run 125: run_20260308_215013
+  Path Length: 3.384 m
+  Straight Line: 2.995 m
+  Min Obstacle Distance: 0.443 m
+  Deviation: 13.0%
+
+Run 126: run_20260308_215115
+  Path Length: 3.232 m
+  Straight Line: 2.863 m
+  Min Obstacle Distance: 0.458 m
+  Deviation: 12.9%
+
+Run 127: run_20260308_215221
+  Path Length: 3.244 m
+  Straight Line: 2.877 m
+  Min Obstacle Distance: 0.399 m
+  Deviation: 12.8%
+
+Run 128: run_20260308_215326
+  Path Length: 2.779 m
+  Straight Line: 2.453 m
+  Min Obstacle Distance: 0.412 m
+  Deviation: 13.3%
+
+Run 129: run_20260308_215428
+  Path Length: 2.817 m
+  Straight Line: 2.491 m
+  Min Obstacle Distance: 0.456 m
+  Deviation: 13.1%
+
+Run 130: run_20260308_215530
+  Path Length: 3.271 m
+  Straight Line: 2.938 m
+  Min Obstacle Distance: 0.616 m
+  Deviation: 11.3%
+
+Run 131: run_20260308_215638
+  Path Length: 3.314 m
+  Straight Line: 2.928 m
+  Min Obstacle Distance: 0.451 m
+  Deviation: 13.2%
+
+Run 132: run_20260308_215738
+  Path Length: 3.241 m
+  Straight Line: 2.871 m
+  Min Obstacle Distance: 0.456 m
+  Deviation: 12.9%
+
+Run 133: run_20260308_223206
+  Path Length: 3.025 m
+  Straight Line: 2.911 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 3.9%
+
+Run 134: run_20260308_223309
+  Path Length: 2.804 m
+  Straight Line: 2.69 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.2%
+
+Run 135: run_20260308_223409
+  Path Length: 2.844 m
+  Straight Line: 2.715 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.8%
+
+Run 136: run_20260308_223511
+  Path Length: 2.874 m
+  Straight Line: 2.758 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.2%
+
+Run 137: run_20260308_223613
+  Path Length: 3.012 m
+  Straight Line: 2.874 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.8%
+
+Run 138: run_20260308_223710
+  Path Length: 2.582 m
+  Straight Line: 2.461 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.9%
+
+Run 139: run_20260308_223806
+  Path Length: 3.147 m
+  Straight Line: 2.992 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 5.2%
+
+Run 140: run_20260308_223909
+  Path Length: 2.476 m
+  Straight Line: 2.36 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.9%
+
+Run 141: run_20260308_224007
+  Path Length: 2.541 m
+  Straight Line: 2.422 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.9%
+
+Run 142: run_20260308_224105
+  Path Length: 2.909 m
+  Straight Line: 2.789 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.3%
+
+Run 143: run_20260309_000918
+  Path Length: 3.299 m
+  Straight Line: 2.846 m
+  Min Obstacle Distance: 0.477 m
+  Deviation: 15.9%
+
+Run 144: run_20260309_001029
+  Path Length: 2.611 m
+  Straight Line: 2.519 m
+  Min Obstacle Distance: 0.612 m
+  Deviation: 3.7%
+
+Run 145: run_20260309_001134
+  Path Length: 2.631 m
+  Straight Line: 2.526 m
+  Min Obstacle Distance: 0.65 m
+  Deviation: 4.2%
+
+Run 146: run_20260309_001243
+  Path Length: 3.585 m
+  Straight Line: 2.988 m
+  Min Obstacle Distance: 0.508 m
+  Deviation: 20.0%
+
+Run 147: run_20260309_001401
+  Path Length: 3.484 m
+  Straight Line: 2.923 m
+  Min Obstacle Distance: 0.514 m
+  Deviation: 19.2%
+
+Run 148: run_20260309_001512
+  Path Length: 2.948 m
+  Straight Line: 2.838 m
+  Min Obstacle Distance: 0.508 m
+  Deviation: 3.9%
+
+Run 149: run_20260309_001618
+  Path Length: 2.448 m
+  Straight Line: 2.358 m
+  Min Obstacle Distance: 0.778 m
+  Deviation: 3.8%
+
+Run 150: run_20260309_001724
+  Path Length: 2.813 m
+  Straight Line: 2.711 m
+  Min Obstacle Distance: 0.551 m
+  Deviation: 3.8%
+
+Run 151: run_20260309_001834
+  Path Length: 3.03 m
+  Straight Line: 2.931 m
+  Min Obstacle Distance: 0.534 m
+  Deviation: 3.4%
+
+Run 152: run_20260309_001943
+  Path Length: 3.067 m
+  Straight Line: 2.965 m
+  Min Obstacle Distance: 0.597 m
+  Deviation: 3.4%
+
+Run 153: run_20260309_002046
+  Path Length: 2.89 m
+  Straight Line: 2.794 m
+  Min Obstacle Distance: 0.555 m
+  Deviation: 3.4%
+
+Run 154: run_20260309_002150
+  Path Length: 3.567 m
+  Straight Line: 3.002 m
+  Min Obstacle Distance: 0.508 m
+  Deviation: 18.8%
+
+Run 155: run_20260309_002259
+  Path Length: 2.307 m
+  Straight Line: 2.201 m
+  Min Obstacle Distance: 0.722 m
+  Deviation: 4.8%
+
+Run 156: run_20260309_002406
+  Path Length: 2.957 m
+  Straight Line: 2.853 m
+  Min Obstacle Distance: 0.7 m
+  Deviation: 3.6%
+
+Run 157: run_20260309_002515
+  Path Length: 2.498 m
+  Straight Line: 2.406 m
+  Min Obstacle Distance: 0.537 m
+  Deviation: 3.8%
+
+Run 158: run_20260309_002623
+  Path Length: 2.858 m
+  Straight Line: 2.753 m
+  Min Obstacle Distance: 0.298 m
+  Deviation: 3.8%
+
+Run 159: run_20260309_002732
+  Path Length: 2.518 m
+  Straight Line: 2.416 m
+  Min Obstacle Distance: 0.526 m
+  Deviation: 4.2%
+
+Run 160: run_20260309_002845
+  Path Length: 2.575 m
+  Straight Line: 2.481 m
+  Min Obstacle Distance: 0.678 m
+  Deviation: 3.8%
+
+Run 161: run_20260309_002951
+  Path Length: 3.164 m
+  Straight Line: 2.766 m
+  Min Obstacle Distance: 0.491 m
+  Deviation: 14.4%
+
+Run 162: run_20260309_003101
+  Path Length: 2.717 m
+  Straight Line: 2.622 m
+  Min Obstacle Distance: 0.704 m
+  Deviation: 3.6%
+
+Run 163: run_20260309_014035
+  Path Length: 2.955 m
+  Straight Line: 2.796 m
+  Min Obstacle Distance: 0.357 m
+  Deviation: 5.7%
+
+Run 164: run_20260309_014141
+  Path Length: 3.02 m
+  Straight Line: 2.915 m
+  Min Obstacle Distance: 0.601 m
+  Deviation: 3.6%
+
+Run 165: run_20260309_014245
+  Path Length: 3.534 m
+  Straight Line: 2.915 m
+  Min Obstacle Distance: 0.555 m
+  Deviation: 21.2%
+
+Run 166: run_20260309_014357
+  Path Length: 2.929 m
+  Straight Line: 2.826 m
+  Min Obstacle Distance: 0.622 m
+  Deviation: 3.6%
+
+Run 167: run_20260309_014500
+  Path Length: 2.373 m
+  Straight Line: 2.273 m
+  Min Obstacle Distance: 0.744 m
+  Deviation: 4.4%
+
+Run 168: run_20260309_014604
+  Path Length: 3.507 m
+  Straight Line: 2.934 m
+  Min Obstacle Distance: 0.418 m
+  Deviation: 19.5%
+
+Run 169: run_20260309_014712
+  Path Length: 2.979 m
+  Straight Line: 2.873 m
+  Min Obstacle Distance: 0.659 m
+  Deviation: 3.7%
+
+Run 170: run_20260309_014817
+  Path Length: 3.852 m
+  Straight Line: 3.079 m
+  Min Obstacle Distance: 0.477 m
+  Deviation: 25.1%
+
+Run 171: run_20260309_014931
+  Path Length: 2.789 m
+  Straight Line: 2.612 m
+  Min Obstacle Distance: 0.507 m
+  Deviation: 6.8%
+
+Run 172: run_20260309_015034
+  Path Length: 2.906 m
+  Straight Line: 2.823 m
+  Min Obstacle Distance: 0.324 m
+  Deviation: 2.9%
+
+Run 173: run_20260309_015142
+  Path Length: 2.739 m
+  Straight Line: 2.568 m
+  Min Obstacle Distance: 0.561 m
+  Deviation: 6.7%
+
+Run 174: run_20260309_015248
+  Path Length: 3.086 m
+  Straight Line: 2.938 m
+  Min Obstacle Distance: 0.531 m
+  Deviation: 5.0%
+
+Run 175: run_20260309_015354
+  Path Length: 2.577 m
+  Straight Line: 2.425 m
+  Min Obstacle Distance: 0.591 m
+  Deviation: 6.3%
+
+Run 176: run_20260309_015502
+  Path Length: 3.324 m
+  Straight Line: 2.832 m
+  Min Obstacle Distance: 0.497 m
+  Deviation: 17.4%
+
+Run 177: run_20260309_015605
+  Path Length: 2.378 m
+  Straight Line: 2.279 m
+  Min Obstacle Distance: 0.845 m
+  Deviation: 4.3%
+
+Run 178: run_20260309_015715
+  Path Length: 2.379 m
+  Straight Line: 2.285 m
+  Min Obstacle Distance: 0.925 m
+  Deviation: 4.1%
+
+Run 179: run_20260309_015822
+  Path Length: 3.611 m
+  Straight Line: 2.985 m
+  Min Obstacle Distance: 0.545 m
+  Deviation: 21.0%
+
+Run 180: run_20260309_015933
+  Path Length: 3.115 m
+  Straight Line: 2.925 m
+  Min Obstacle Distance: 0.364 m
+  Deviation: 6.5%
+
+Run 181: run_20260309_020042
+  Path Length: 3.522 m
+  Straight Line: 2.95 m
+  Min Obstacle Distance: 0.366 m
+  Deviation: 19.4%
+
+Run 182: run_20260309_020153
+  Path Length: 3.039 m
+  Straight Line: 2.941 m
+  Min Obstacle Distance: 0.485 m
+  Deviation: 3.3%
+
+Run 183: run_20260309_031017
+  Path Length: 2.723 m
+  Straight Line: 2.623 m
+  Min Obstacle Distance: 0.855 m
+  Deviation: 3.8%
+
+Run 184: run_20260309_031124
+  Path Length: 2.882 m
+  Straight Line: 2.741 m
+  Min Obstacle Distance: 0.404 m
+  Deviation: 5.1%
+
+Run 185: run_20260309_031232
+  Path Length: 2.908 m
+  Straight Line: 2.814 m
+  Min Obstacle Distance: 0.717 m
+  Deviation: 3.3%
+
+Run 186: run_20260309_031339
+  Path Length: 2.985 m
+  Straight Line: 2.842 m
+  Min Obstacle Distance: 0.527 m
+  Deviation: 5.0%
+
+Run 187: run_20260309_031440
+  Path Length: 2.856 m
+  Straight Line: 2.76 m
+  Min Obstacle Distance: 0.691 m
+  Deviation: 3.5%
+
+Run 188: run_20260309_031541
+  Path Length: 2.986 m
+  Straight Line: 2.843 m
+  Min Obstacle Distance: 0.69 m
+  Deviation: 5.0%
+
+Run 189: run_20260309_031648
+  Path Length: 2.825 m
+  Straight Line: 2.707 m
+  Min Obstacle Distance: 0.73 m
+  Deviation: 4.4%
+
+Run 190: run_20260309_031749
+  Path Length: 2.636 m
+  Straight Line: 2.533 m
+  Min Obstacle Distance: 0.756 m
+  Deviation: 4.1%
+
+Run 191: run_20260309_031859
+  Path Length: 3.003 m
+  Straight Line: 2.837 m
+  Min Obstacle Distance: 0.697 m
+  Deviation: 5.9%
+
+Run 192: run_20260309_031959
+  Path Length: 2.978 m
+  Straight Line: 2.873 m
+  Min Obstacle Distance: 0.574 m
+  Deviation: 3.7%
+
+Run 193: run_20260309_032105
+  Path Length: 3.016 m
+  Straight Line: 2.885 m
+  Min Obstacle Distance: 0.711 m
+  Deviation: 4.5%
+
+Run 194: run_20260309_032208
+  Path Length: 2.867 m
+  Straight Line: 2.729 m
+  Min Obstacle Distance: 0.658 m
+  Deviation: 5.1%
+
+Run 195: run_20260309_032311
+  Path Length: 3.002 m
+  Straight Line: 2.86 m
+  Min Obstacle Distance: 0.693 m
+  Deviation: 5.0%
+
+Run 196: run_20260309_032411
+  Path Length: 2.981 m
+  Straight Line: 2.835 m
+  Min Obstacle Distance: 0.678 m
+  Deviation: 5.1%
+
+Run 197: run_20260309_032512
+  Path Length: 4.405 m
+  Straight Line: 3.237 m
+  Min Obstacle Distance: 0.405 m
+  Deviation: 36.1%
+
+Run 198: run_20260309_032628
+  Path Length: 2.98 m
+  Straight Line: 2.876 m
+  Min Obstacle Distance: 0.29 m
+  Deviation: 3.6%
+
+Run 199: run_20260309_032737
+  Path Length: 2.83 m
+  Straight Line: 2.736 m
+  Min Obstacle Distance: 0.635 m
+  Deviation: 3.4%
+
+Run 200: run_20260309_032842
+  Path Length: 2.462 m
+  Straight Line: 2.298 m
+  Min Obstacle Distance: 0.825 m
+  Deviation: 7.1%
+
+Run 201: run_20260309_032945
+  Path Length: 2.607 m
+  Straight Line: 2.479 m
+  Min Obstacle Distance: 0.706 m
+  Deviation: 5.2%
+
+Run 202: run_20260309_033052
+  Path Length: 2.256 m
+  Straight Line: 2.155 m
+  Min Obstacle Distance: 1.14 m
+  Deviation: 4.7%
+
+Run 203: run_20260309_043744
+  Path Length: 3.56 m
+  Straight Line: 3.101 m
+  Min Obstacle Distance: 1.203 m
+  Deviation: 14.8%
+
+Run 204: run_20260309_043851
+  Path Length: 3.925 m
+  Straight Line: 3.302 m
+  Min Obstacle Distance: 1.105 m
+  Deviation: 18.9%
+
+Run 205: run_20260309_043959
+  Path Length: 3.606 m
+  Straight Line: 3.147 m
+  Min Obstacle Distance: 1.131 m
+  Deviation: 14.6%
+
+Run 206: run_20260309_044108
+  Path Length: 3.725 m
+  Straight Line: 3.199 m
+  Min Obstacle Distance: 1.026 m
+  Deviation: 16.4%
+
+Run 207: run_20260309_044215
+  Path Length: 3.743 m
+  Straight Line: 3.217 m
+  Min Obstacle Distance: 1.136 m
+  Deviation: 16.4%
+
+Run 208: run_20260309_044323
+  Path Length: 3.424 m
+  Straight Line: 3.025 m
+  Min Obstacle Distance: 1.024 m
+  Deviation: 13.2%
+
+Run 209: run_20260309_044433
+  Path Length: 2.787 m
+  Straight Line: 2.671 m
+  Min Obstacle Distance: 0.376 m
+  Deviation: 4.3%
+
+Run 210: run_20260309_044538
+  Path Length: 3.445 m
+  Straight Line: 3.072 m
+  Min Obstacle Distance: 1.17 m
+  Deviation: 12.1%
+
+Run 211: run_20260309_044647
+  Path Length: 3.929 m
+  Straight Line: 3.297 m
+  Min Obstacle Distance: 0.94 m
+  Deviation: 19.2%
+
+Run 212: run_20260309_044800
+  Path Length: 3.777 m
+  Straight Line: 3.234 m
+  Min Obstacle Distance: 0.962 m
+  Deviation: 16.8%
+
+Run 213: run_20260309_044908
+  Path Length: 3.551 m
+  Straight Line: 3.104 m
+  Min Obstacle Distance: 1.1 m
+  Deviation: 14.4%
+
+Run 214: run_20260309_045017
+  Path Length: 3.561 m
+  Straight Line: 3.113 m
+  Min Obstacle Distance: 1.123 m
+  Deviation: 14.4%
+
+Run 215: run_20260309_045129
+  Path Length: 3.393 m
+  Straight Line: 2.991 m
+  Min Obstacle Distance: 1.081 m
+  Deviation: 13.4%
+
+Run 216: run_20260309_045238
+  Path Length: 3.52 m
+  Straight Line: 3.086 m
+  Min Obstacle Distance: 1.011 m
+  Deviation: 14.1%
+
+Run 217: run_20260309_045345
+  Path Length: 3.802 m
+  Straight Line: 3.233 m
+  Min Obstacle Distance: 1.11 m
+  Deviation: 17.6%
+
+Run 218: run_20260309_045451
+  Path Length: 3.422 m
+  Straight Line: 3.036 m
+  Min Obstacle Distance: 1.158 m
+  Deviation: 12.7%
+
+Run 219: run_20260309_045554
+  Path Length: 3.377 m
+  Straight Line: 2.978 m
+  Min Obstacle Distance: 1.048 m
+  Deviation: 13.4%
+
+Run 220: run_20260309_045704
+  Path Length: 3.489 m
+  Straight Line: 3.075 m
+  Min Obstacle Distance: 1.116 m
+  Deviation: 13.5%
+
+Run 221: run_20260309_045809
+  Path Length: 3.687 m
+  Straight Line: 3.181 m
+  Min Obstacle Distance: 0.901 m
+  Deviation: 15.9%
+
+Run 222: run_20260309_045918
+  Path Length: 3.536 m
+  Straight Line: 3.103 m
+  Min Obstacle Distance: 1.117 m
+  Deviation: 14.0%
+
+Run 223: run_20260309_060737
+  Path Length: 3.072 m
+  Straight Line: 2.909 m
+  Min Obstacle Distance: 1.14 m
+  Deviation: 5.6%
+
+Run 224: run_20260309_060835
+  Path Length: 9.665 m
+  Straight Line: 0.453 m
+  Min Obstacle Distance: 0.023 m
+  Deviation: 2033.6%
+
+Run 225: run_20260309_061046
+  Path Length: 2.663 m
+  Straight Line: 2.494 m
+  Min Obstacle Distance: 1.042 m
+  Deviation: 6.8%
+
+Run 226: run_20260309_061147
+  Path Length: 4.052 m
+  Straight Line: 3.134 m
+  Min Obstacle Distance: 1.185 m
+  Deviation: 29.3%
+
+Run 227: run_20260309_061259
+  Path Length: 2.894 m
+  Straight Line: 2.616 m
+  Min Obstacle Distance: 1.208 m
+  Deviation: 10.6%
+
+Run 228: run_20260309_061404
+  Path Length: 2.988 m
+  Straight Line: 2.782 m
+  Min Obstacle Distance: 1.116 m
+  Deviation: 7.4%
+
+Run 229: run_20260309_061511
+  Path Length: 3.682 m
+  Straight Line: 3.08 m
+  Min Obstacle Distance: 1.227 m
+  Deviation: 19.5%
+
+Run 230: run_20260309_061626
+  Path Length: 2.787 m
+  Straight Line: 2.578 m
+  Min Obstacle Distance: 0.948 m
+  Deviation: 8.1%
+
+Run 231: run_20260309_061725
+  Path Length: 2.943 m
+  Straight Line: 2.674 m
+  Min Obstacle Distance: 1.091 m
+  Deviation: 10.1%
+
+Run 232: run_20260309_061824
+  Path Length: 3.71 m
+  Straight Line: 3.066 m
+  Min Obstacle Distance: 1.246 m
+  Deviation: 21.0%
+
+Run 233: run_20260309_061933
+  Path Length: 3.251 m
+  Straight Line: 2.837 m
+  Min Obstacle Distance: 1.112 m
+  Deviation: 14.6%
+
+Run 234: run_20260309_062043
+  Path Length: 3.09 m
+  Straight Line: 2.777 m
+  Min Obstacle Distance: 1.036 m
+  Deviation: 11.3%
+
+Run 235: run_20260309_062144
+  Path Length: 3.464 m
+  Straight Line: 3.074 m
+  Min Obstacle Distance: 1.049 m
+  Deviation: 12.7%
+
+Run 236: run_20260309_062248
+  Path Length: 2.981 m
+  Straight Line: 2.787 m
+  Min Obstacle Distance: 1.045 m
+  Deviation: 7.0%
+
+Run 237: run_20260309_062349
+  Path Length: 3.598 m
+  Straight Line: 3.149 m
+  Min Obstacle Distance: 1.0 m
+  Deviation: 14.3%
+
+Run 238: run_20260309_062457
+  Path Length: 2.488 m
+  Straight Line: 2.337 m
+  Min Obstacle Distance: 1.081 m
+  Deviation: 6.5%
+
+Run 239: run_20260309_062602
+  Path Length: 2.73 m
+  Straight Line: 2.547 m
+  Min Obstacle Distance: 0.923 m
+  Deviation: 7.2%
+
+Run 240: run_20260309_062700
+  Path Length: 3.764 m
+  Straight Line: 3.128 m
+  Min Obstacle Distance: 1.189 m
+  Deviation: 20.3%
+
+Run 241: run_20260309_062806
+  Path Length: 3.81 m
+  Straight Line: 3.075 m
+  Min Obstacle Distance: 1.224 m
+  Deviation: 23.9%
+
+Run 242: run_20260309_062911
+  Path Length: 3.691 m
+  Straight Line: 3.113 m
+  Min Obstacle Distance: 1.222 m
+  Deviation: 18.6%
+
+Run 243: run_20260309_074532
+  Path Length: 5.047 m
+  Straight Line: 3.704 m
+  Min Obstacle Distance: 1.41 m
+  Deviation: 36.3%
+
+Run 244: run_20260309_074642
+  Path Length: 5.941 m
+  Straight Line: 3.745 m
+  Min Obstacle Distance: 1.141 m
+  Deviation: 58.6%
+
+Run 245: run_20260309_074848
+  Path Length: 5.829 m
+  Straight Line: 3.705 m
+  Min Obstacle Distance: 1.452 m
+  Deviation: 57.3%
+
+Run 246: run_20260309_075059
+  Path Length: 5.929 m
+  Straight Line: 3.737 m
+  Min Obstacle Distance: 1.581 m
+  Deviation: 58.7%
+
+Run 247: run_20260309_075308
+  Path Length: 5.993 m
+  Straight Line: 3.735 m
+  Min Obstacle Distance: 1.242 m
+  Deviation: 60.5%
+
+Run 248: run_20260309_075505
+  Path Length: 5.217 m
+  Straight Line: 3.732 m
+  Min Obstacle Distance: 1.575 m
+  Deviation: 39.8%
+
+Run 249: run_20260309_075617
+  Path Length: 5.165 m
+  Straight Line: 3.728 m
+  Min Obstacle Distance: 1.507 m
+  Deviation: 38.5%
+
+Run 250: run_20260309_075731
+  Path Length: 5.218 m
+  Straight Line: 3.72 m
+  Min Obstacle Distance: 1.609 m
+  Deviation: 40.3%
+
+Run 251: run_20260309_075841
+  Path Length: 3.086 m
+  Straight Line: 2.906 m
+  Min Obstacle Distance: 0.95 m
+  Deviation: 6.2%
+
+Run 252: run_20260309_075944
+  Path Length: 5.76 m
+  Straight Line: 3.681 m
+  Min Obstacle Distance: 0.924 m
+  Deviation: 56.5%
+
+Run 253: run_20260309_080151
+  Path Length: 5.55 m
+  Straight Line: 3.721 m
+  Min Obstacle Distance: 1.51 m
+  Deviation: 49.2%
+
+Run 254: run_20260309_080307
+  Path Length: 5.911 m
+  Straight Line: 3.719 m
+  Min Obstacle Distance: 1.191 m
+  Deviation: 58.9%
+
+Run 255: run_20260309_080512
+  Path Length: 5.743 m
+  Straight Line: 3.701 m
+  Min Obstacle Distance: 0.782 m
+  Deviation: 55.2%
+
+Run 256: run_20260309_080718
+  Path Length: 4.565 m
+  Straight Line: 3.551 m
+  Min Obstacle Distance: 1.279 m
+  Deviation: 28.6%
+
+Run 257: run_20260309_080835
+  Path Length: 5.909 m
+  Straight Line: 3.714 m
+  Min Obstacle Distance: 1.123 m
+  Deviation: 59.1%
+
+Run 258: run_20260309_081045
+  Path Length: 5.845 m
+  Straight Line: 3.701 m
+  Min Obstacle Distance: 1.33 m
+  Deviation: 57.9%
+
+Run 259: run_20260309_081255
+  Path Length: 5.599 m
+  Straight Line: 3.658 m
+  Min Obstacle Distance: 1.359 m
+  Deviation: 53.1%
+
+Run 260: run_20260309_081412
+  Path Length: 5.875 m
+  Straight Line: 3.696 m
+  Min Obstacle Distance: 1.029 m
+  Deviation: 59.0%
+
+Run 261: run_20260309_081618
+  Path Length: 4.971 m
+  Straight Line: 3.677 m
+  Min Obstacle Distance: 1.412 m
+  Deviation: 35.2%
+
+Run 262: run_20260309_081732
+  Path Length: 5.847 m
+  Straight Line: 3.733 m
+  Min Obstacle Distance: 1.586 m
+  Deviation: 56.6%
+
+Run 263: run_20260309_092047
+  Path Length: 3.016 m
+  Straight Line: 2.819 m
+  Min Obstacle Distance: 0.177 m
+  Deviation: 7.0%
+
+Run 264: run_20260309_092149
+  Path Length: 2.566 m
+  Straight Line: 2.4 m
+  Min Obstacle Distance: 0.207 m
+  Deviation: 6.9%
+
+Run 265: run_20260309_092248
+  Path Length: 3.269 m
+  Straight Line: 3.031 m
+  Min Obstacle Distance: 0.155 m
+  Deviation: 7.9%
+
+Run 266: run_20260309_092349
+  Path Length: 2.77 m
+  Straight Line: 2.593 m
+  Min Obstacle Distance: 0.243 m
+  Deviation: 6.8%
+
+Run 267: run_20260309_092447
+  Path Length: 3.196 m
+  Straight Line: 2.988 m
+  Min Obstacle Distance: 0.189 m
+  Deviation: 7.0%
+
+Run 268: run_20260309_092552
+  Path Length: 3.982 m
+  Straight Line: 2.908 m
+  Min Obstacle Distance: 0.392 m
+  Deviation: 36.9%
+
+Run 269: run_20260309_092710
+  Path Length: 2.761 m
+  Straight Line: 2.579 m
+  Min Obstacle Distance: 0.216 m
+  Deviation: 7.1%
+
+Run 270: run_20260309_092812
+  Path Length: 2.831 m
+  Straight Line: 2.654 m
+  Min Obstacle Distance: 0.377 m
+  Deviation: 6.7%
+
+Run 271: run_20260309_092921
+  Path Length: 2.879 m
+  Straight Line: 2.696 m
+  Min Obstacle Distance: 0.206 m
+  Deviation: 6.8%
+
+Run 272: run_20260309_093023
+  Path Length: 3.044 m
+  Straight Line: 2.846 m
+  Min Obstacle Distance: 0.18 m
+  Deviation: 7.0%
+
+Run 273: run_20260309_093127
+  Path Length: 2.817 m
+  Straight Line: 2.636 m
+  Min Obstacle Distance: 0.215 m
+  Deviation: 6.9%
+
+Run 274: run_20260309_093234
+  Path Length: 3.005 m
+  Straight Line: 2.8 m
+  Min Obstacle Distance: 0.156 m
+  Deviation: 7.3%
+
+Run 275: run_20260309_093337
+  Path Length: 2.852 m
+  Straight Line: 2.674 m
+  Min Obstacle Distance: 0.169 m
+  Deviation: 6.7%
+
+Run 276: run_20260309_093441
+  Path Length: 2.854 m
+  Straight Line: 2.668 m
+  Min Obstacle Distance: 0.19 m
+  Deviation: 7.0%
+
+Run 277: run_20260309_093542
+  Path Length: 3.133 m
+  Straight Line: 2.918 m
+  Min Obstacle Distance: 0.151 m
+  Deviation: 7.4%
+
+Run 278: run_20260309_093642
+  Path Length: 3.237 m
+  Straight Line: 3.021 m
+  Min Obstacle Distance: 0.178 m
+  Deviation: 7.1%
+
+Run 279: run_20260309_093742
+  Path Length: 3.3 m
+  Straight Line: 3.076 m
+  Min Obstacle Distance: 0.179 m
+  Deviation: 7.3%
+
+Run 280: run_20260309_093847
+  Path Length: 2.589 m
+  Straight Line: 2.424 m
+  Min Obstacle Distance: 0.188 m
+  Deviation: 6.8%
+
+Run 281: run_20260309_093946
+  Path Length: 2.999 m
+  Straight Line: 2.8 m
+  Min Obstacle Distance: 0.168 m
+  Deviation: 7.1%
+
+Run 282: run_20260309_094052
+  Path Length: 3.926 m
+  Straight Line: 1.882 m
+  Min Obstacle Distance: 0.203 m
+  Deviation: 108.6%
+
+Run 283: run_20260309_105030
+  Path Length: 2.647 m
+  Straight Line: 2.343 m
+  Min Obstacle Distance: 0.409 m
+  Deviation: 13.0%
+
+Run 284: run_20260309_105136
+  Path Length: 3.143 m
+  Straight Line: 2.749 m
+  Min Obstacle Distance: 0.373 m
+  Deviation: 14.3%
+
+Run 285: run_20260309_105241
+  Path Length: 3.08 m
+  Straight Line: 2.725 m
+  Min Obstacle Distance: 0.454 m
+  Deviation: 13.0%
+
+Run 286: run_20260309_105343
+  Path Length: 2.878 m
+  Straight Line: 2.546 m
+  Min Obstacle Distance: 0.436 m
+  Deviation: 13.0%
+
+Run 287: run_20260309_105452
+  Path Length: 3.315 m
+  Straight Line: 2.939 m
+  Min Obstacle Distance: 0.444 m
+  Deviation: 12.8%
+
+Run 288: run_20260309_105559
+  Path Length: 2.899 m
+  Straight Line: 2.566 m
+  Min Obstacle Distance: 0.464 m
+  Deviation: 13.0%
+
+Run 289: run_20260309_105701
+  Path Length: 3.03 m
+  Straight Line: 2.68 m
+  Min Obstacle Distance: 0.462 m
+  Deviation: 13.1%
+
+Run 290: run_20260309_105806
+  Path Length: 2.872 m
+  Straight Line: 2.542 m
+  Min Obstacle Distance: 0.345 m
+  Deviation: 13.0%
+
+Run 291: run_20260309_105910
+  Path Length: 2.864 m
+  Straight Line: 2.527 m
+  Min Obstacle Distance: 0.405 m
+  Deviation: 13.3%
+
+Run 292: run_20260309_110018
+  Path Length: 2.817 m
+  Straight Line: 2.486 m
+  Min Obstacle Distance: 0.368 m
+  Deviation: 13.3%
+
+Run 293: run_20260309_110127
+  Path Length: 3.077 m
+  Straight Line: 2.731 m
+  Min Obstacle Distance: 0.449 m
+  Deviation: 12.7%
+
+Run 294: run_20260309_110227
+  Path Length: 3.393 m
+  Straight Line: 2.99 m
+  Min Obstacle Distance: 0.413 m
+  Deviation: 13.5%
+
+Run 295: run_20260309_110329
+  Path Length: 2.855 m
+  Straight Line: 2.526 m
+  Min Obstacle Distance: 0.475 m
+  Deviation: 13.0%
+
+Run 296: run_20260309_110428
+  Path Length: 2.953 m
+  Straight Line: 2.62 m
+  Min Obstacle Distance: 0.451 m
+  Deviation: 12.7%
+
+Run 297: run_20260309_110531
+  Path Length: 3.321 m
+  Straight Line: 2.929 m
+  Min Obstacle Distance: 0.407 m
+  Deviation: 13.4%
+
+Run 298: run_20260309_110635
+  Path Length: 3.005 m
+  Straight Line: 2.668 m
+  Min Obstacle Distance: 0.4 m
+  Deviation: 12.6%
+
+Run 299: run_20260309_110736
+  Path Length: 3.456 m
+  Straight Line: 3.061 m
+  Min Obstacle Distance: 0.383 m
+  Deviation: 12.9%
+
+Run 300: run_20260309_110839
+  Path Length: 3.312 m
+  Straight Line: 2.931 m
+  Min Obstacle Distance: 0.425 m
+  Deviation: 13.0%
+
+Run 301: run_20260309_110939
+  Path Length: 3.071 m
+  Straight Line: 2.723 m
+  Min Obstacle Distance: 0.458 m
+  Deviation: 12.8%
+
+Run 302: run_20260309_111042
+  Path Length: 3.27 m
+  Straight Line: 2.888 m
+  Min Obstacle Distance: 0.414 m
+  Deviation: 13.2%
+
+Run 303: run_20260309_122147
+  Path Length: 2.554 m
+  Straight Line: 2.445 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.5%
+
+Run 304: run_20260309_122246
+  Path Length: 2.775 m
+  Straight Line: 2.653 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.6%
+
+Run 305: run_20260309_122345
+  Path Length: 2.908 m
+  Straight Line: 2.79 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.2%
+
+Run 306: run_20260309_122444
+  Path Length: 3.144 m
+  Straight Line: 3.004 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.7%
+
+Run 307: run_20260309_122547
+  Path Length: 2.442 m
+  Straight Line: 2.312 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 5.6%
+
+Run 308: run_20260309_122646
+  Path Length: 2.571 m
+  Straight Line: 2.452 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.9%
+
+Run 309: run_20260309_122747
+  Path Length: 2.674 m
+  Straight Line: 2.548 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.9%
+
+Run 310: run_20260309_122851
+  Path Length: 2.56 m
+  Straight Line: 2.441 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.9%
+
+Run 311: run_20260309_122948
+  Path Length: 2.981 m
+  Straight Line: 2.853 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.5%
+
+Run 312: run_20260309_123047
+  Path Length: 3.11 m
+  Straight Line: 2.984 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.2%
+
+Run 313: run_20260309_123143
+  Path Length: 3.14 m
+  Straight Line: 2.847 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 10.3%
+
+Run 314: run_20260309_123249
+  Path Length: 2.846 m
+  Straight Line: 2.727 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.4%
+
+Run 315: run_20260309_123349
+  Path Length: 2.809 m
+  Straight Line: 2.69 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.4%
+
+Run 316: run_20260309_123447
+  Path Length: 2.849 m
+  Straight Line: 2.735 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.2%
+
+Run 317: run_20260309_123547
+  Path Length: 3.002 m
+  Straight Line: 2.872 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.5%
+
+Run 318: run_20260309_123650
+  Path Length: 2.851 m
+  Straight Line: 2.732 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.4%
+
+Run 319: run_20260309_123750
+  Path Length: 2.647 m
+  Straight Line: 2.506 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 5.6%
+
+Run 320: run_20260309_123851
+  Path Length: 3.059 m
+  Straight Line: 2.95 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 3.7%
+
+Run 321: run_20260309_123951
+  Path Length: 3.049 m
+  Straight Line: 2.909 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.8%
+
+Run 322: run_20260309_124051
+  Path Length: 2.89 m
+  Straight Line: 2.77 m
+  Min Obstacle Distance: 2.058 m
+  Deviation: 4.3%
+
+================================================================================

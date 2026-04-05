@@ -1,0 +1,19 @@
+============================================================
+ROBOT TRAJECTORY STATISTICS
+============================================================
+
+Generated: 2026-02-13 22:10:39
+
+TRAJECTORY METRICS
+------------------------------------------------------------
+Total Path Length: 3.889 meters
+Number of Points: 599
+
+OBSTACLE PROXIMITY
+------------------------------------------------------------
+No obstacles detected during trajectory
+
+Number of Active Obstacles: 0
+
+
+============================================================

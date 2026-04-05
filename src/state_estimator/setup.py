@@ -25,6 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'kf_state_estimator = state_estimator.kf_state_estimator:main',
+            'ekf_state_estimator = state_estimator.ekf_state_estimator:main',
+            'ukf_state_estimator = state_estimator.ukf_state_estimator:main',
             'costmap_merger = state_estimator.costmap_merger:main',
         ],
     },
